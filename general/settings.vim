@@ -27,4 +27,3 @@ set autochdir
 set termguicolors
 
 let mapleader = ' '
-
