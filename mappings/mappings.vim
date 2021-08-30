@@ -7,6 +7,5 @@ nnoremap <silent><leader>pu :PlugUpdate<CR>
 nnoremap <silent><leader>pug :PlugUpgrade<CR>
 
 "Others
-nmap <Leader>ra :RainbowLoad<CR>
 nmap <Leader>sy :syntax on<CR>
 noremap <C-t> :tabnew split<CR>
