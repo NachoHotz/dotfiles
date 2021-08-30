@@ -3,8 +3,6 @@ call plug#begin('C:\Program Files (x86)\Vim\plugged')
 
 "colorschemes
 Plug 'morhetz/gruvbox'
-Plug 'embark-theme/vim', { 'as': 'embark' }
-Plug 'wojciechkepka/vim-github-dark'
 
 "airline
 Plug 'vim-airline/vim-airline'
