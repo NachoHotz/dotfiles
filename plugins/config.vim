@@ -8,5 +8,3 @@ source ~/AppData/Local/nvim/plugins/config/airline.vim
 source ~/AppData/Local/nvim/plugins/config/rainbow.vim
 
 colorscheme gruvbox
-
-let g:tablineclosebutton = 1
