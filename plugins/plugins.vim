@@ -35,9 +35,8 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
-"other plugins
+"others
 Plug 'mhinz/vim-signify'
-Plug 'mhinz/vim-startify'
 Plug 'ericbn/vim-relativize'
 Plug 'preservim/nerdcommenter'
 Plug 'pbrisbin/vim-mkdir'
