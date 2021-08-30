@@ -1,5 +1,4 @@
 "---------------------------------vim config---------------------------- 
-
 set shiftwidth=2
 set noeb vb t_vb=
 set expandtab

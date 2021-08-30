@@ -1,5 +1,4 @@
 "--------------------------------Plugins--------------------------------------------
-
 call plug#begin('C:\Program Files (x86)\Vim\plugged')
 
 "colorschemes
