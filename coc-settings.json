@@ -1,0 +1,16 @@
+{
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+  "markdownlint.config": { "MD013": false },
+  "javascript.suggest.paths": true,
+  "javascript.suggest.names": true,
+  "html.format.enable": true,
+  "html.autoClosingTags": true,
+  "sql.lintOnSave": true,
+  "sql.database": "postgresql",
+  "sqlfluff.lintOnSave": true,
+  "tslint.autoFixOnSave": true
+}
