@@ -29,4 +29,4 @@ set autochdir
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/plugins.vim
 source ~/AppData/Local/nvim/plugins/config.vim
-source ~/AppData/Local/nvim/mappings.vim
+source ~/AppData/Local/nvim/mappings/mappings.vim
