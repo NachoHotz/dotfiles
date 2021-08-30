@@ -1,3 +1,4 @@
+"-------------------------------Mappings-------------------------------
 nmap <Leader>gi :Git init<CR>
 nmap <Leader>gd :Git diff<CR>
 nmap <Leader>gds :Git diff --staged<CR>
