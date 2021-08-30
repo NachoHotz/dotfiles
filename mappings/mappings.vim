@@ -16,18 +16,6 @@ nmap <Leader>qq :q!<CR>
 nmap <Leader>nt :NERDTreeToggle<CR>
 nmap <Leader>nf :NERDTreeFind<CR>
 
-"Coc code navigation
-nnoremap <silent> K :call <SID>show_documentation()<CR>
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-"CocCommand
-nmap <Leader>mk :CocCommand markdownlint.fixAll<CR>
-nmap <Leader>p :CocCommand prettier.formatFile<CR>
-nmap <Leader>ts :CocCommand tsserver.executeAutofix<CR>
-
 "Windows swap
 nmap <Leader>j :wincmd j<CR>
 nmap <Leader>k :wincmd k<CR>
