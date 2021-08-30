@@ -1,9 +1,5 @@
 "-------------------------------Mappings-------------------------------
 
-"NERDTree 
-nmap <Leader>nt :NERDTreeToggle<CR>
-nmap <Leader>nf :NERDTreeFind<CR>
-
 "Vim-Plug
 nnoremap <silent><leader>p :PlugInstall<CR>
 nnoremap <silent><leader>cl :PlugClean<CR>
