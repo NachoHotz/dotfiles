@@ -26,8 +26,6 @@ set clipboard=unnamed
 set autochdir
 set termguicolors
 
-colorscheme gruvbox
-
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/plugins.vim
 source ~/AppData/Local/nvim/plugins/config.vim
