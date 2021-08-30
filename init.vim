@@ -26,12 +26,13 @@ set clipboard=unnamed
 set autochdir
 set termguicolors
 
+let mapleader = ' '
+
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/plugins.vim
 source ~/AppData/Local/nvim/plugins/config.vim
 
 "-------------------------------Mappings-------------------------------
-let mapleader = ' '
 
 "Save file and refresh init.vim
 map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
