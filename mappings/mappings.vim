@@ -1,6 +1,11 @@
 "-------------------------------Mappings-------------------------------
 let mapleader = ' '
 
+"Save file and quit
+nmap <Leader>q :q<CR>
+nmap <Leader>wq :wq<CR>
+nmap <Leader>qq :q!<CR>
+
 "Git"
 nmap <Leader>gi :Git init<CR>
 nmap <Leader>gd :Git diff<CR>
@@ -72,15 +77,22 @@ noremap <Leader><S-Tab> :bw!<CR>
 nmap <Leader>tl :terminal<CR>
 map <Leader>wtl :w <bar> :terminal<CR>
 
+"Go to NORMAL mode
+:imap ii <Esc>
+
+"Refresh init.vim
+nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
+
+"Save file and refresh init.vim
+map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
+
+"Refresh init.vin and execute PlugInstall
+nnoremap <silent><leader>1 :source $HOME\AppData\Local\nvim\init.vim \| :PlugInstall<CR>
+
+"Save file and toggle eslint.executeAutofix
+nmap <Leader>w :w <bar> :CocCommand eslint.executeAutofix<CR>
+
 "Others
 nmap <Leader>ra :RainbowLoad<CR>
 nmap <Leader>sy :syntax on<CR>
-nmap <Leader>w :w <bar> :CocCommand eslint.executeAutofix<CR>
-nmap <Leader>q :q<CR>
-nmap <Leader>wq :wq<CR>
-nmap <Leader>qq :q!<CR>
-map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
 noremap <C-t> :tabnew split<CR>
-nnoremap <silent><leader>1 :source $HOME\AppData\Local\nvim\init.vim \| :PlugInstall<CR>
-nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
-:imap ii <Esc>
