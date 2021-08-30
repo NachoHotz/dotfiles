@@ -1,6 +1,12 @@
 "-------------------------------Mappings-------------------------------
 let mapleader = ' '
 
+"Save file and refresh init.vim
+map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
+
+"Save file and toggle eslint.executeAutofix
+nmap <Leader>w :w <bar> :CocCommand eslint.executeAutofix<CR>
+
 "Save file and quit
 nmap <Leader>q :q<CR>
 nmap <Leader>wq :wq<CR>
@@ -83,14 +89,8 @@ map <Leader>wtl :w <bar> :terminal<CR>
 "Refresh init.vim
 nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
 
-"Save file and refresh init.vim
-map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
-
 "Refresh init.vin and execute PlugInstall
 nnoremap <silent><leader>1 :source $HOME\AppData\Local\nvim\init.vim \| :PlugInstall<CR>
-
-"Save file and toggle eslint.executeAutofix
-nmap <Leader>w :w <bar> :CocCommand eslint.executeAutofix<CR>
 
 "Others
 nmap <Leader>ra :RainbowLoad<CR>
