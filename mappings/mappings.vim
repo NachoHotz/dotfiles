@@ -89,8 +89,8 @@ map <Leader>wtl :w <bar> :terminal<CR>
 "Refresh init.vim
 nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
 
-"Refresh init.vin and execute PlugInstall
-nnoremap <silent><leader>1 :source $HOME\AppData\Local\nvim\init.vim \| :PlugInstall<CR>
+"Execute PlugInstall
+nnoremap <silent><leader>p :PlugInstall<CR>
 
 "Others
 nmap <Leader>ra :RainbowLoad<CR>
