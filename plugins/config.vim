@@ -1,6 +1,3 @@
-set termguicolors
-colorscheme gruvbox
-
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/config/coc.vim
 source ~/AppData/Local/nvim/plugins/config/gruvbox.vim
