@@ -29,7 +29,6 @@ set termguicolors
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/plugins.vim
 source ~/AppData/Local/nvim/plugins/config.vim
-source ~/AppData/Local/nvim/mappings/mappings.vim
 
 "-------------------------------Mappings-------------------------------
 let mapleader = ' '
@@ -72,3 +71,7 @@ map <Leader>wtl :w <bar> :terminal<CR>
 
 "Refresh init.vim
 nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
+
+"Others
+nmap <Leader>sy :syntax on<CR>
+noremap <C-t> :tabnew split<CR>
