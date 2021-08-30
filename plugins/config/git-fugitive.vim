@@ -16,7 +16,7 @@ nmap <Leader>gs :Git stash<CR>
 nmap <Leader>gsp :Git stash pop<CR>
 nmap <Leader>gl :Git log<CR>
 nmap <Leader>glf :Git log --follow 
-nmap <Leader>gm :Git merge 
+nmap <Leader>gme :Git merge 
 nmap <Leader>grs :Git restore --staged 
 nmap <Leader>grss :Git reset --soft 
 nmap <Leader>grh :Git reset --hard 
