@@ -33,8 +33,14 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
+"signify
+if has('nvim') || has('patch-8.0.902')
+  Plug 'mhinz/vim-signify'
+else
+  Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
+endif
+
 "others
-Plug 'mhinz/vim-signify'
 Plug 'ericbn/vim-relativize'
 Plug 'preservim/nerdcommenter'
 Plug 'pbrisbin/vim-mkdir'
