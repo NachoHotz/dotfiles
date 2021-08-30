@@ -27,3 +27,6 @@ set autochdir
 set termguicolors
 
 let mapleader = ' '
+
+"-------------------------------Sources-------------------------------
+source ~/AppData/Local/nvim/general/mappings.vim
