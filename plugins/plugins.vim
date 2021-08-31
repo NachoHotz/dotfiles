@@ -38,7 +38,7 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'quramy/tsuquyomi' "for typescript
 
-"shows changes signs in a git repo
+"shows change signs in VIM sign column a git repo
 Plug 'airblade/vim-gitgutter'
 
 "others
