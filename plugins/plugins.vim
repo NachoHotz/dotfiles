@@ -12,6 +12,7 @@ Plug 'enricobacis/vim-airline-clock'
 
 "syntax
 Plug 'yggdroot/indentline'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'frazrepo/vim-rainbow'
@@ -19,6 +20,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'hail2u/vim-css3-syntax'
+Plug 'groenewege/vim-less'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-surround'
 
@@ -34,12 +36,14 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'quramy/tsuquyomi' "for typescript
 
 "shows changes signs in a git repo
 Plug 'airblade/vim-gitgutter'
 
 "others
 Plug 'mbbill/undotree'
+Plug 'mhinz/vim-startify'
 Plug 'ericbn/vim-relativize'
 Plug 'preservim/nerdcommenter'
 Plug 'pbrisbin/vim-mkdir'
