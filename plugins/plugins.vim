@@ -38,6 +38,7 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'airblade/vim-gitgutter'
 
 "others
+Plug 'mbbill/undotree'
 Plug 'ericbn/vim-relativize'
 Plug 'preservim/nerdcommenter'
 Plug 'pbrisbin/vim-mkdir'
