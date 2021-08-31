@@ -1,8 +1,8 @@
 "Save file and refresh init.vim
 map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
 
-"Save file and toggle eslint.executeAutofix
-nmap <Leader>w :w <bar> :CocCommand eslint.executeAutofix<CR>
+"Save file
+nmap <Leader>w :w<CR>
 
 "Save file and quit
 nmap <Leader>q :q<CR>
