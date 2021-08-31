@@ -24,11 +24,6 @@ Plug 'groenewege/vim-less'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-surround'
 
-"snippets
-Plug 'SirVer/ultisnips' "track engine
-Plug 'honza/vim-snippets' "snippets package
-Plug 'isruslan/vim-es6'
-
 "nerdtree
 Plug 'scrooloose/nerdtree'
 
