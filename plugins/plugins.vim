@@ -46,9 +46,6 @@ Plug 'quramy/tsuquyomi' "for typescript
 "shows change signs in VIM sign column a git repo
 Plug 'airblade/vim-gitgutter'
 
-"rename current buffer
-Plug 'danro/rename.vim'
-
 "to jump to different undo states
 Plug 'mbbill/undotree'
 
