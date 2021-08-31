@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 
 "syntax
+Plug 'yggdroot/indentline'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'frazrepo/vim-rainbow'
 Plug 'pangloss/vim-javascript'
