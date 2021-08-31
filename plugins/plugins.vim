@@ -3,6 +3,7 @@ call plug#begin('C:\Program Files (x86)\Vim\plugged')
 
 "colorschemes
 Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
 
 "airline
 Plug 'vim-airline/vim-airline'
