@@ -11,6 +11,7 @@ Plug 'enricobacis/vim-airline-clock'
 
 "syntax
 Plug 'yggdroot/indentline'
+Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'frazrepo/vim-rainbow'
 Plug 'pangloss/vim-javascript'
