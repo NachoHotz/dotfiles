@@ -32,12 +32,8 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
-"signify
-if has('nvim') || has('patch-8.0.902')
-  Plug 'mhinz/vim-signify'
-else
-  Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
-endif
+"shows changes signs in a git repo
+Plug 'airblade/vim-gitgutter'
 
 "others
 Plug 'ericbn/vim-relativize'
