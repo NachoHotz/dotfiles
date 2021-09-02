@@ -9,6 +9,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 
+"file icons
+Plug 'ryanoasis/vim-devicons'
+
 "syntax
 Plug 'yggdroot/indentline'
 Plug 'leafgarland/typescript-vim'
