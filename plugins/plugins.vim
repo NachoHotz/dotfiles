@@ -11,6 +11,7 @@ Plug 'enricobacis/vim-airline-clock'
 
 "file icons
 Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 "syntax
 Plug 'yggdroot/indentline'
