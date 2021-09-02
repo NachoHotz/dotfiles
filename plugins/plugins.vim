@@ -12,6 +12,7 @@ Plug 'enricobacis/vim-airline-clock'
 
 "syntax
 Plug 'yggdroot/indentline'
+Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'frazrepo/vim-rainbow'
@@ -35,6 +36,7 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
+Plug 'quramy/tsuquyomi' "for typescript
 
 "shows change signs in VIM sign column a git repo
 Plug 'airblade/vim-gitgutter'
