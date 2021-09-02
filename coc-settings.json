@@ -1,4 +1,7 @@
 {
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript, typescript, typescriptreact, javascriptreact, typescript.tsx, json"
+  ],
   "prettier.semi": true,
   "prettier.trailingComma": "all",
   "prettier.singleQuote": true,
