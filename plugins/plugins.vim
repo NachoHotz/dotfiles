@@ -30,17 +30,17 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'rhysd/git-messenger.vim'
 
-"Git plugin for nerdtree
+"Git integration for nerdtree
 Plug 'xuyuanp/nerdtree-git-plugin'
 
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
 Plug 'quramy/tsuquyomi' "for typescript
 
-"shows change signs in VIM sign column a git repo
+"shows change signs in VIM sign column when changes were made inside a git repo
 Plug 'airblade/vim-gitgutter'
 
-"to jump to different undo states
+"jump to different undo states
 Plug 'mbbill/undotree'
 
 "startup page
@@ -49,7 +49,7 @@ Plug 'mhinz/vim-startify'
 "shows relative numbers or not depending of mode
 Plug 'ericbn/vim-relativize'
 
-"for comments mappings
+"for better comment mappings
 Plug 'preservim/nerdcommenter'
 
 "to make a new directory without errors
