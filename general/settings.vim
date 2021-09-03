@@ -10,7 +10,7 @@ set noundofile
 set number
 set smartindent
 set numberwidth=1
-set encoding=utf-8
+set encoding=utf8
 set ruler
 set sw=2
 set relativenumber
