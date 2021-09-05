@@ -11,18 +11,5 @@
   "html.autoClosingTags": true,
   "sql.lintOnSave": true,
   "sql.database": "postgresql",
-  "sqlfluff.lintOnSave": true,
-  "languageserver": {
-    "ccls": {
-      "command": "ccls",
-      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
-      "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
-      "initializationOptions": {
-        "cache": {
-          "directory": "/tmp/ccls"
-        }
-      }
-    }
-  },
-  "tslint.autoFixOnSave": true
+  "sqlfluff.lintOnSave": true
 }
