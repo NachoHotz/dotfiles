@@ -28,8 +28,8 @@ noremap <Leader><Tab> :bw<CR>
 noremap <Leader><S-Tab> :bw!<CR>
 
 "Terminal
-nmap <Leader>tl :CocCommand terminal.Toggle<CR>
-map <Leader>wtl :w <bar> :CocCommand terminal.Toggle<CR>
+nmap <Leader>tl :terminal<CR>
+map <Leader>wtl :w <bar> :terminal<CR>
 
 "Go to NORMAL mode
 :imap ii <Esc>
