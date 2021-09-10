@@ -9,6 +9,12 @@ nmap <Leader>q :q<CR>
 nmap <Leader>wq :wq<CR>
 nmap <Leader>qq :q!<CR>
 
+"Run current file
+nmap <Leader>no :!node %<CR>
+
+"Save and run current file
+nmap <Leader>wno :w <bar> :!node %<CR>
+
 "Windows swap
 nmap <Leader>j :wincmd j<CR>
 nmap <Leader>k :wincmd k<CR>
