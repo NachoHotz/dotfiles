@@ -15,6 +15,12 @@ nmap <Leader>no :!node %<CR>
 "Save and run current file
 nmap <Leader>wno :w <bar> :!node %<CR>
 
+"Npm commnands
+nmap <Leader>ni :!npm init<CR>
+nmap <Leader>niy :!npm init -y<CR>
+nmap <Leader>nis :!npm i<CR>
+nmap <Leader>niss :!npm i 
+
 "Windows swap
 nmap <Leader>j :wincmd j<CR>
 nmap <Leader>k :wincmd k<CR>
