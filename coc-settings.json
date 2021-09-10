@@ -7,8 +7,6 @@
   "markdownlint.config": { "MD013": false },
   "javascript.suggest.paths": true,
   "javascript.suggest.names": false,
-  "html.format.enable": true,
-  "html.autoClosingTags": true,
   "sql.lintOnSave": true,
   "sql.database": "postgresql",
   "sqlfluff.lintOnSave": true
