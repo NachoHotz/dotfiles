@@ -26,4 +26,3 @@ nmap <silent> gr <Plug>(coc-references)
 nmap <Leader>es :CocCommand eslint.executeAutofix<CR>
 nmap <Leader>mk :CocCommand markdownlint.fixAll<CR>
 nmap <Leader>p :CocCommand prettier.formatFile<CR>
-nmap <Leader>ts :CocCommand tsserver.executeAutofix<CR>
