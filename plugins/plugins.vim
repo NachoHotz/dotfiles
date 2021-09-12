@@ -56,4 +56,7 @@ Plug 'preservim/nerdcommenter'
 "to make a new directory without errors
 Plug 'pbrisbin/vim-mkdir'
 
+"to run tests
+Plug 'vim-test/vim-test'
+
 call plug#end()
