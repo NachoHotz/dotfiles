@@ -15,6 +15,9 @@ nmap <Leader>no :!node %<CR>
 "Save and run current file
 nmap <Leader>wno :w <bar> :!node %<CR>
 
+"Save file and run typescript compiler
+nmap <Leader>wts :w <bar> :!tsc<CR>
+
 "Npm commnands
 nmap <Leader>ni :!npm init<CR>
 nmap <Leader>niy :!npm init -y<CR>
