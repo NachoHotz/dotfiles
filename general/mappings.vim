@@ -18,14 +18,6 @@ nmap <Leader>wno :w <bar> :!node %<CR>
 "Save file and run typescript compiler
 nmap <Leader>wts :w <bar> :!tsc<CR>
 
-"Save file and run tests
-
-nmap <Leader>wtn :w <bar> :TestNearest<CR>
-nmap <Leader>wtf :w <bar> :TestFile<CR>
-nmap <Leader>wtss :w <bar> :TestSuite<CR>
-nmap <Leader>wtl :w <bar> :TestLast<CR>
-nmap <Leader>wtv :w <bar> :TestVisit<CR>
-
 "Npm commnands
 nmap <Leader>ni :!npm init<CR>
 nmap <Leader>niy :!npm init -y<CR>
