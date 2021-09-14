@@ -2,7 +2,7 @@
 map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
 
 "Save file
-nmap <Leader>w :w<CR>
+nmap <Leader>ww :w<CR>
 
 "Save file and quit
 nmap <Leader>q :q<CR>
