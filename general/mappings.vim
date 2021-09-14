@@ -2,12 +2,12 @@
 map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
 
 "Save file
-nmap <Leader>ww :w<CR>
+nnoremap <silent><Leader>ww :w<CR>
 
 "Save file and quit
-nmap <Leader>q :q<CR>
-nmap <Leader>wq :wq<CR>
-nmap <Leader>qq :q!<CR>
+nnoremap <silent><Leader>q :q<CR>
+nnoremap <silent><Leader>wq :wq<CR>
+nnoremap <silent><Leader>qq :q!<CR>
 
 "Run current file
 nnoremap <silent><Leader>no :!node %<CR>
