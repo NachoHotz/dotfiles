@@ -10,10 +10,10 @@ nmap <Leader>wq :wq<CR>
 nmap <Leader>qq :q!<CR>
 
 "Run current file
-nmap <Leader>no :!node %<CR>
+nnoremap <silent><Leader>no :!node %<CR>
 
 "Save and run current file
-nmap <Leader>wno :w <bar> :!node %<CR>
+nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
 
 "Save file and run typescript compiler
 nmap <Leader>wts :w <bar> :!tsc<CR>
