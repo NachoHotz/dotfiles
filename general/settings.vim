@@ -25,6 +25,7 @@ set cmdheight=1
 set clipboard=unnamed
 set autochdir
 set termguicolors
+set mouse=a
 
 let g:solarized_termcolors=256
 let mapleader = ' '
