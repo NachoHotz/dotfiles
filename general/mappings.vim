@@ -19,8 +19,7 @@ nmap <Leader>wno :w <bar> :!node %<CR>
 nmap <Leader>wts :w <bar> :!tsc<CR>
 
 "Npm commnands
-nmap <Leader>ni :!npm init<CR>
-nmap <Leader>niy :!npm init -y<CR>
+nmap <Leader>ni :!npm init -y<CR>
 nmap <Leader>nis :!npm i<CR>
 nmap <Leader>niss :!npm i 
 
