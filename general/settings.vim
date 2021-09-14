@@ -26,6 +26,7 @@ set clipboard=unnamed
 set autochdir
 set termguicolors
 
+let g:solarized_termcolors=256
 let mapleader = ' '
 
 "-------------------------------Sources-------------------------------

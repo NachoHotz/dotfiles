@@ -10,4 +10,4 @@ source ~/AppData/Local/nvim/plugins/config/nerdtree.vim
 source ~/AppData/Local/nvim/plugins/config/airline.vim
 source ~/AppData/Local/nvim/plugins/config/rainbow.vim
 
-colorscheme gruvbox
+colorscheme solarized
