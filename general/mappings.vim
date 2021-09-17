@@ -50,3 +50,9 @@ nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
 "Others
 nmap <Leader>sy :syntax on<CR>
 noremap <C-t> :tabnew split<CR>
+
+"Compile c/c++ files
+nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
+
+"Run c/c++ file
+nnoremap <Leader>gcr :!%:r<CR>
