@@ -55,4 +55,4 @@ noremap <C-t> :tabnew split<CR>
 nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
 "Run c/c++ file
-nnoremap <Leader>gcr :!%:r<CR>
+nnoremap <Leader>gcr :terminal %:r<CR>
