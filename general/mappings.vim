@@ -56,3 +56,6 @@ nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
 "Run c/c++ file
 nnoremap <Leader>gcr :terminal %:r<CR>
+
+"Compile and run c/c++ files
+nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal %:r<CR>
