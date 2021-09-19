@@ -59,3 +59,9 @@ nnoremap <Leader>gcr :terminal %:r<CR>
 
 "Compile and run c/c++ files
 nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal %:r<CR>
+
+"Run python files
+nnoremap <Leader>py :!python %<CR>
+
+"Save file and run python files
+nnoremap <Leader>wpy :w <bar> :!python %<CR>
