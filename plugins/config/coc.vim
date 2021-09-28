@@ -16,11 +16,11 @@ endfunction
 
 "---------------------------Mappings----------------------
 "code navigation
-nnoremap <silent> K :call <SID>show_documentation()<CR>
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+nnoremap <silent>K :call <SID>show_documentation()<CR>
+nmap <silent>gd <Plug>(coc-definition)
+nmap <silent>gy <Plug>(coc-type-definition)
+nmap <silent>gi <Plug>(coc-implementation)
+nmap <silent>gr <Plug>(coc-references)
 
 "CocCommand
 nmap <Leader>es :CocCommand eslint.executeAutofix<CR>
