@@ -7,6 +7,7 @@ nmap <Leader>gad :Git add .<CR>
 nmap <Leader>gcl :Git clone 
 nmap <Leader>gch :Git checkout 
 nmap <Leader>gct :Git commit -m "
+nmap <Leader>gca :Git commit --amend -m "
 nmap <Leader>gph :Git push<CR>
 nmap <Leader>gpd :Git push origin --delete 
 nmap <Leader>gpu :Git push -u 
