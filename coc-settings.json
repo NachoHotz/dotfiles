@@ -8,6 +8,5 @@
   "javascript.suggest.paths": true,
   "javascript.suggest.names": false,
   "sql.lintOnSave": true,
-  "sql.database": "postgresql",
   "sqlfluff.lintOnSave": true
 }
