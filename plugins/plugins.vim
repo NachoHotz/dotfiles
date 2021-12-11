@@ -25,8 +25,8 @@ Plug 'tpope/vim-surround'
 "nerdtree
 Plug 'scrooloose/nerdtree'
 Plug 'PhilRunninger/nerdtree-visual-selection'
-Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
 
 "Git integration
 Plug 'tpope/vim-fugitive'
@@ -37,7 +37,6 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
-"Plug 'quramy/tsuquyomi' "for typescript
 
 "shows change signs in VIM sign column when changes were made inside a git repo
 if has('nvim') || has('patch-8.0.902')
