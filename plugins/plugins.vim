@@ -38,10 +38,14 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
-Plug 'quramy/tsuquyomi' "for typescript
+"Plug 'quramy/tsuquyomi' "for typescript
 
 "shows change signs in VIM sign column when changes were made inside a git repo
-Plug 'airblade/vim-gitgutter'
+if has('nvim') || has('patch-8.0.902')
+  Plug 'mhinz/vim-signify'
+else
+  Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
+endif
 
 "jump to different undo states
 Plug 'mbbill/undotree'
