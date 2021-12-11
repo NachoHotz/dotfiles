@@ -27,6 +27,8 @@ Plug 'tpope/vim-surround'
 "nerdtree
 Plug 'scrooloose/nerdtree'
 Plug 'PhilRunninger/nerdtree-visual-selection'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 "Git integration
 Plug 'tpope/vim-fugitive'
