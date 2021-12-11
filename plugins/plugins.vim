@@ -20,7 +20,6 @@ Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'groenewege/vim-less'
-Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-surround'
 
 "nerdtree
