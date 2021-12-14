@@ -31,4 +31,4 @@ let g:solarized_termcolors=256
 let mapleader = ' '
 
 "-------------------------------Sources-------------------------------
-source ~/AppData/Local/nvim/general/mappings.vim
+source ${HOME}/.config/nvim/general/mappings.vim
