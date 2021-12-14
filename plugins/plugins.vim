@@ -39,6 +39,8 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 "autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
 
+Plug 'w0rp/ale'
+
 "shows change signs in VIM sign column when changes were made inside a git repo
 if has('nvim') || has('patch-8.0.902')
   Plug 'mhinz/vim-signify'

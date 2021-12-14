@@ -22,10 +22,12 @@ set noshowmode
 set wrap
 set nu
 set cmdheight=1
-set clipboard=unnamed
+set clipboard+=unnamedplus
 set autochdir
 set termguicolors
 set mouse=a
+
+highlight Normal guibg=none
 
 let g:solarized_termcolors=256
 let mapleader = ' '
