@@ -1,5 +1,5 @@
 "--------------------------------Plugins--------------------------------------------
-call plug#begin('C:\Program Files (x86)\Vim\plugged')
+call plug#begin('~/.config/nvim/autoload/plugged')
 
 "colorschemes
 Plug 'morhetz/gruvbox'
@@ -25,8 +25,8 @@ Plug 'tpope/vim-surround'
 "nerdtree
 Plug 'scrooloose/nerdtree'
 Plug 'PhilRunninger/nerdtree-visual-selection'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'ryanoasis/vim-devicons'
 
 "Git integration
 Plug 'tpope/vim-fugitive'

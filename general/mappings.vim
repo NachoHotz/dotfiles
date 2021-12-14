@@ -1,5 +1,5 @@
 "Save file and refresh init.vim
-map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
+map <Leader>wso :w <bar> :source ${HOME}/.config/nvim/init.vim<CR>
 
 "Save file
 nnoremap <silent><Leader>ww :w<CR>
@@ -45,7 +45,7 @@ noremap <Leader><S-Tab> :bw!<CR>
 :imap ii <Esc>
 
 "Refresh init.vim
-nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
+nmap <Leader>so :source ${HOME}/.config/nvim/init.vim<CR>
 
 "Others
 nmap <Leader>sy :syntax on<CR>
