@@ -18,6 +18,12 @@ nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
 "Save file and run typescript compiler
 nmap <Leader>wts :w <bar> :!tsc<CR>
 
+"Open terminal
+nmap <Leader>tl :terminal<CR>
+
+"Save file and open terminal
+nmap <Leader>wtl :w <bar> :terminal<CR>
+
 "Npm commnands
 nmap <Leader>ni :!npm init -y<CR>
 nmap <Leader>nis :!npm i<CR>
