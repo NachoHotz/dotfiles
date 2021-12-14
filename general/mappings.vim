@@ -57,14 +57,23 @@ nmap <Leader>so :source ${HOME}/.config/nvim/init.vim<CR>
 nmap <Leader>sy :syntax on<CR>
 noremap <C-t> :tabnew split<CR>
 
-"Compile c/c++ files
+"Compile c files
 nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
-"Run c/c++ file
+"Run c file
 nnoremap <Leader>gcr :terminal ./%:r<CR>
 
-"Compile and run c/c++ files
+"Compile and run c files
 nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
+
+"Compile c++ files
+nnoremap <Leader>gpp :!g++ -Wall % -o %:r<CR>
+
+"Run c++ file
+nnoremap <Leader>gpr :terminal ./%:r<CR>
+
+"Compile and run c files
+nnoremap <Leader>gcpr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
 
 "Run python files
 nnoremap <Leader>py :!python %<CR>

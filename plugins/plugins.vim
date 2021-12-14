@@ -21,6 +21,7 @@ Plug 'alvan/vim-closetag'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'groenewege/vim-less'
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 "nerdtree
 Plug 'scrooloose/nerdtree'
