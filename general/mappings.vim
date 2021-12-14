@@ -55,10 +55,10 @@ noremap <C-t> :tabnew split<CR>
 nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
 "Run c/c++ file
-nnoremap <Leader>gcr :terminal %:r<CR>
+nnoremap <Leader>gcr :terminal ./%:r<CR>
 
 "Compile and run c/c++ files
-nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal %:r<CR>
+nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
 
 "Run python files
 nnoremap <Leader>py :!python %<CR>
