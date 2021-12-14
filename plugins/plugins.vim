@@ -2,7 +2,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
 "colorschemes
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
 Plug 'ishan9299/nvim-solarized-lua'
 
 "airline
