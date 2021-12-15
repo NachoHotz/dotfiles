@@ -19,7 +19,7 @@ nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
 nmap <Leader>wts :w <bar> :!tsc<CR>
 
 "Open terminal
-nmap <Leader>tl :terminal<CR>
+nmap <Leader>tl <Plug>(coc-terminal-toggle)
 
 "Save file and open terminal
 nmap <Leader>wtl :w <bar> :terminal<CR>
