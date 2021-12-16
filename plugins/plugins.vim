@@ -11,7 +11,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 
 "syntax
-Plug 'yggdroot/indentline'
+Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'maxmellon/vim-jsx-pretty'
