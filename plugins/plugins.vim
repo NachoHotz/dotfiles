@@ -36,7 +36,12 @@ Plug 'honza/vim-snippets'
 "Git integration
 Plug 'tpope/vim-fugitive'
 Plug 'rhysd/git-messenger.vim'
-Plug 'airblade/vim-gitgutter'
+
+if has('nvim') || has('patch-8.0.902')
+  Plug 'mhinz/vim-signify'
+else
+  Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
+endif
 
 "autocompletion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
