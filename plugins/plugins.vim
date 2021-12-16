@@ -63,4 +63,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'nvim-lua/plenary.nvim'
 
+"testing
+Plug 'vim-test/vim-test'
+
 call plug#end()
