@@ -7,7 +7,7 @@ nnoremap <silent><Leader>ww :w<CR>
 "Save file and quit
 nnoremap <silent><Leader>q :q<CR>
 nnoremap <silent><Leader>wq :wq<CR>
-nnoremap <silent><Leader>qq :q!<CR>
+nnoremap <silent><Leader>ew :q!<CR>
 
 "Run current file
 nnoremap <silent><Leader>no :!node %<CR>
@@ -54,7 +54,6 @@ noremap <Leader><S-Tab> :bw!<CR>
 nmap <Leader>so :source ${HOME}/.config/nvim/init.vim<CR>
 
 "Others
-nmap <Leader>sy :syntax on<CR>
 noremap <C-t> :tabnew split<CR>
 
 "Compile c files

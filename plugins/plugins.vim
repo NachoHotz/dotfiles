@@ -46,9 +46,6 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
 "jump to different undo states
 Plug 'mbbill/undotree'
 
-""startup page
-"Plug 'mhinz/vim-startify'
-
 "shows relative numbers or not depending of mode
 Plug 'ericbn/vim-relativize'
 
