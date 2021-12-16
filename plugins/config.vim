@@ -10,5 +10,6 @@ source ${HOME}/.config/nvim/plugins/config/nerdtree.vim
 source ${HOME}/.config/nvim/plugins/config/airline.vim
 source ${HOME}/.config/nvim/plugins/config/ale-config.vim
 source ${HOME}/.config/nvim/plugins/config/ultisnippets.vim
+source ${HOME}/.config/nvim/plugins/config/telescope-config.vim
 
 colorscheme gruvbox

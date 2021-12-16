@@ -65,4 +65,7 @@ Plug 'preservim/nerdcommenter'
 "to make a new directory without errors
 Plug 'pbrisbin/vim-mkdir'
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
