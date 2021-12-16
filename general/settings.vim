@@ -25,6 +25,7 @@ set clipboard+=unnamedplus
 set autochdir
 set termguicolors
 set mouse=a
+set completeopt=menuone,noinsert,noselect,preview
 
 highlight Normal guibg=none
 
