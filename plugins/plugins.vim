@@ -21,10 +21,10 @@ Plug 'alvan/vim-closetag'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-Plug 'w0rp/ale'
 
 "nerdtree
 Plug 'scrooloose/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'PhilRunninger/nerdtree-visual-selection'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -36,25 +36,16 @@ Plug 'honza/vim-snippets'
 "Git integration
 Plug 'tpope/vim-fugitive'
 Plug 'rhysd/git-messenger.vim'
-
-"Git integration for nerdtree
-Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
 
 "autocompletion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
 
-"shows change signs in VIM sign column when changes were made inside a git repo
-if has('nvim') || has('patch-8.0.902')
-  Plug 'mhinz/vim-signify'
-else
-  Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
-endif
-
 "jump to different undo states
 Plug 'mbbill/undotree'
 
-"startup page
-Plug 'mhinz/vim-startify'
+""startup page
+"Plug 'mhinz/vim-startify'
 
 "shows relative numbers or not depending of mode
 Plug 'ericbn/vim-relativize'
@@ -65,7 +56,9 @@ Plug 'preservim/nerdcommenter'
 "to make a new directory without errors
 Plug 'pbrisbin/vim-mkdir'
 
+"telescope
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+
 call plug#end()
