@@ -25,7 +25,6 @@ set clipboard+=unnamedplus
 set autochdir
 set termguicolors
 set mouse=a
-set cursorline
 set completeopt=menuone,noinsert,noselect,preview
 
 let g:solarized_termcolors=256
