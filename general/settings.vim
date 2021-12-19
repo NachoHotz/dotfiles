@@ -2,7 +2,6 @@
 set shiftwidth=2
 set noeb vb t_vb=
 set expandtab
-set cursorline
 set incsearch
 set noswapfile
 set nobackup
@@ -22,10 +21,11 @@ set noshowmode
 set wrap
 set nu
 set cmdheight=1
-set clipboard=unnamed
+set clipboard+=unnamedplus
 set autochdir
 set termguicolors
 set mouse=a
+set completeopt=menuone,noinsert,noselect,preview
 
 let g:solarized_termcolors=256
 let mapleader = ' '
