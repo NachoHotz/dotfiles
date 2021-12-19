@@ -7,7 +7,7 @@ nnoremap <silent><Leader>ww :w<CR>
 "Save file and quit
 nnoremap <silent><Leader>q :q<CR>
 nnoremap <silent><Leader>wq :wq<CR>
-nnoremap <silent><Leader>qq :q!<CR>
+nnoremap <silent><Leader>ew :q!<CR>
 
 "Run current file
 nnoremap <silent><Leader>no :!node %<CR>
@@ -17,6 +17,12 @@ nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
 
 "Save file and run typescript compiler
 nmap <Leader>wts :w <bar> :!tsc<CR>
+
+"Open terminal
+nmap <Leader>tl <Plug>(coc-terminal-toggle)
+
+"Save file and open terminal
+nmap <Leader>wtl :w <bar> :terminal<CR>
 
 "Npm commnands
 nmap <Leader>ni :!npm init -y<CR>
@@ -48,17 +54,25 @@ noremap <Leader><S-Tab> :bw!<CR>
 nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
 
 "Others
-nmap <Leader>sy :syntax on<CR>
 noremap <C-t> :tabnew split<CR>
 
-"Compile c/c++ files
+"Compile c files
 nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
-"Run c/c++ file
-nnoremap <Leader>gcr :terminal %:r<CR>
+"Run c file
+nnoremap <Leader>gcr :terminal ./%:r<CR>
 
-"Compile and run c/c++ files
-nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal %:r<CR>
+"Compile and run c files
+nnoremap <Leader>gccr :!gcc -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
+
+"Compile c++ files
+nnoremap <Leader>gpp :!g++ -Wall % -o %:r<CR>
+
+"Run c++ file
+nnoremap <Leader>gpr :terminal ./%:r<CR>
+
+"Compile and run c files
+nnoremap <Leader>gcpr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
 
 "Run python files
 nnoremap <Leader>py :!python %<CR>
