@@ -72,7 +72,7 @@ nnoremap <Leader>gpp :!g++ -Wall % -o %:r<CR>
 nnoremap <Leader>gpr :terminal ./%:r<CR>
 
 "Compile and run c files
-nnoremap <Leader>gcpr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
+nnoremap <Leader>gppr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
 
 "Run python files
 nnoremap <Leader>py :!python %<CR>
