@@ -11,5 +11,6 @@ source ${HOME}/.config/nvim/plugins/config/ale-config.vim
 source ${HOME}/.config/nvim/plugins/config/ultisnippets.vim
 source ${HOME}/.config/nvim/plugins/config/telescope-config.vim
 source ${HOME}/.config/nvim/plugins/config/vim-test.vim
+source ${HOME}/.config/nvim/plugins/config/react-refactor.vim
 
 colorscheme solarized
