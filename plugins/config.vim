@@ -12,4 +12,4 @@ source ${HOME}/.config/nvim/plugins/config/ultisnippets.vim
 source ${HOME}/.config/nvim/plugins/config/telescope-config.vim
 source ${HOME}/.config/nvim/plugins/config/vim-test.vim
 
-colorscheme gruvbox
+colorscheme solarized
