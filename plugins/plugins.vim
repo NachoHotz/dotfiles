@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "colorschemes
 Plug 'gruvbox-community/gruvbox'
 Plug 'ishan9299/nvim-solarized-lua'
+Plug 'cocopon/iceberg.vim'
 
 "airline
 Plug 'vim-airline/vim-airline'
@@ -54,5 +55,12 @@ Plug 'preservim/nerdcommenter'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'nvim-lua/plenary.nvim'
+
+"wild menu
+if has('nvim')
+  Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'gelguy/wilder.nvim'
+endif
 
 call plug#end()

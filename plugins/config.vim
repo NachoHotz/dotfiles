@@ -10,5 +10,6 @@ source ${HOME}/.config/nvim/plugins/config/airline.vim
 source ${HOME}/.config/nvim/plugins/config/ultisnippets.vim
 source ${HOME}/.config/nvim/plugins/config/telescope-config.vim
 source ${HOME}/.config/nvim/plugins/config/react-refactor.vim
+source ${HOME}/.config/nvim/plugins/config/wildermenu.vim
 
-colorscheme solarized
+colorscheme iceberg
