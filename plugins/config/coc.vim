@@ -42,3 +42,4 @@ nmap <Leader>cup :CocUpdate<CR>
 nmap <Leader>es :CocCommand eslint.executeAutofix<CR>
 nmap <Leader>mk :CocCommand markdownlint.fixAll<CR>
 nmap <Leader>p :CocCommand prettier.formatFile<CR>
+nmap <Leader>cda :CocAction<CR>
