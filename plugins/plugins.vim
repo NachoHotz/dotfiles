@@ -1,5 +1,5 @@
 "--------------------------------Plugins--------------------------------------------
-call plug#begin('~/.config/nvim/autoload/plugged')
+call plug#begin('C:\Program Files (x86)\Vim\plugged')
 
 "colorschemes
 Plug 'gruvbox-community/gruvbox'
@@ -27,10 +27,6 @@ Plug 'PhilRunninger/nerdtree-visual-selection' "select multiple files
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons' "file icons
 Plug 'pbrisbin/vim-mkdir' "to make a new directory without errors
-
-"ultisnips
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 
 "Git integration
 Plug 'tpope/vim-fugitive'

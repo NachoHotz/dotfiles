@@ -1,5 +1,4 @@
 "-------------------------------Sources-------------------------------
-source ${HOME}/.config/nvim/general/settings.vim
-source ${HOME}/.config/nvim/plugins/plugins.vim
-source ${HOME}/.config/nvim/plugins/config.vim
-source $VIMRUNTIME/mswin.vim
+source ~/AppData/Local/nvim/general/settings.vim
+source ~/AppData/Local/nvim/plugins/plugins.vim
+source ~/AppData/Local/nvim/plugins/config.vim

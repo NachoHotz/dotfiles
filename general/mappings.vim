@@ -2,7 +2,7 @@
 nmap <Leader>so :source ${HOME}/.config/nvim/init.vim<CR>
 
 "Save file and refresh init.vim
-map <Leader>wso :w <bar> :source ${HOME}/.config/nvim/init.vim<CR>
+map <Leader>wso :w <bar> :source $HOME\AppData\Local\nvim\init.vim<CR>
 
 "Save the current file
 nnoremap <silent><Leader>ww :w<CR>
@@ -52,6 +52,9 @@ noremap <Leader><S-Tab> :bw!<CR>
 
 "Go to NORMAL mode
 :imap ii <Esc>
+
+"Refresh init.vim
+nmap <Leader>so :source $HOME\AppData\Local\nvim\init.vim<CR>
 
 "New tab
 noremap <C-t> :tabnew split<CR>
