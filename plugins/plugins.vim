@@ -1,5 +1,5 @@
 "--------------------------------Plugins--------------------------------------------
-call plug#begin('C:\Program Files (x86)\Vim\plugged')
+call plug#begin('${HOME}/.config/nvim/autoload')
 
 "colorschemes
 Plug 'gruvbox-community/gruvbox'
