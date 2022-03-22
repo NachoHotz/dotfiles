@@ -47,11 +47,6 @@ Plug 'ericbn/vim-relativize'
 "for better comment mappings
 Plug 'preservim/nerdcommenter'
 
-"telescope
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-Plug 'nvim-lua/plenary.nvim'
-
 "wild menu
 if has('nvim')
   Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' }

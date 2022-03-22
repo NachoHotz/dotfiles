@@ -27,6 +27,8 @@ set termguicolors
 set mouse=a
 set completeopt=menuone,noinsert,noselect,preview
 
+au BufNewFile,BufRead *.ejs set filetype=html
+
 let g:solarized_termcolors=256
 let mapleader = ' '
 

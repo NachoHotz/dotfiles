@@ -1,5 +1,24 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": "[html, css, javascript, javascriptreact, js, jsx, typescript, typescriptreact, ts, tsx, c, cpp, python, py, yml, yaml]",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "html",
+    "css",
+    "javascript",
+    "javascriptreact",
+    "js",
+    "jsx",
+    "typescript",
+    "typescriptreact",
+    "ts",
+    "tsx",
+    "c",
+    "cpp",
+    "python",
+    "py",
+    "ejs",
+    "json",
+    "php",
+    "xml"
+  ],
   "prettier.semi": true,
   "prettier.trailingComma": "all",
   "prettier.singleQuote": true,
@@ -8,7 +27,13 @@
   "markdownlint.config": { "MD013": false },
   "javascript.suggest.paths": true,
   "javascript.suggest.names": false,
-  "sql.lintOnSave": true,
-  "sqlfluff.lintOnSave": true,
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd"
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
+  "rest-client.enable": true,
+  "rest-client.showHeaders": true,
+  "rest-client.proxy": "",
+  "rest-client.proxyStrictSSL": false,
+  "rest-client.excludeHostsForProxy": [],
+  "rest-client.timeoutinmilliseconds": 0,
+  "rest-client.followredirect": true,
+  "rest-client.certificates": {}
 }
