@@ -40,6 +40,7 @@ endif
 
 "autocompletion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
+Plug 'github/copilot.vim'
 
 "shows relative numbers or not depending of mode
 Plug 'ericbn/vim-relativize'
