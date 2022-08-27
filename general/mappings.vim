@@ -24,7 +24,7 @@ nmap <Leader>wts :w <bar> :!tsc<CR>
 "---------------------------------------------
 
 "Open the terminal
-nmap <Leader>tl <Plug>(coc-terminal-toggle)
+nmap <Leader>tl :terminal<CR>
 
 "Save the current file and open the terminal
 nmap <Leader>wtl :w <bar> :terminal<CR>
@@ -54,9 +54,6 @@ noremap <Leader><S-Tab> :bw!<CR>
 
 "Go to NORMAL mode
 :imap ii <Esc>
-
-"Refresh init.vim
-nmap <Leader>so :source $HOME/.config/nvim/init.vim<CR>
 
 "New tab
 noremap <C-t> :tabnew split<CR>
