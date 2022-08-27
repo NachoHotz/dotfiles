@@ -8,4 +8,4 @@ source ${HOME}/.config/nvim/plugins/config/nerdtree.vim
 source ${HOME}/.config/nvim/plugins/config/airline.vim
 source ${HOME}/.config/nvim/plugins/config/wildermenu.vim
 
-colorscheme gruvbox
+colorscheme gruvbox-material
