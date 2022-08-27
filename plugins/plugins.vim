@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 "colorschemes
 Plug 'gruvbox-community/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 Plug 'ishan9299/nvim-solarized-lua'
 Plug 'cocopon/iceberg.vim'
 
@@ -39,7 +40,7 @@ else
 endif
 
 "autocompletion
-Plug 'neoclide/coc.nvim', { 'branch': 'release' } "like inteliscence
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
 
 "shows relative numbers or not depending of mode

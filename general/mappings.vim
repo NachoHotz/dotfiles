@@ -78,7 +78,7 @@ nnoremap <Leader>gpr :terminal ./%:r<CR>
 nnoremap <Leader>gppr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
 
 "Run current python file
-nnoremap <Leader>py :!python %<CR>
+nnoremap <Leader>py :!python3 %<CR>
 
 "Save file and run current python files
-nnoremap <Leader>wpy :w <bar> :!python %<CR>
+nnoremap <Leader>wpy :w <bar> :!python3 %<CR>
