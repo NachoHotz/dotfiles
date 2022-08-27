@@ -12,6 +12,7 @@ nnoremap <silent><Leader>q :q<CR>
 nnoremap <silent><Leader>wq :wq<CR>
 nnoremap <silent><Leader>ew :q!<CR>
 
+"------------ NODE JS/TS MAPPINGS ------------
 "Run current JS file
 nnoremap <silent><Leader>no :!node %<CR>
 
@@ -20,6 +21,7 @@ nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
 
 "Save the current file and run the typescript compiler
 nmap <Leader>wts :w <bar> :!tsc<CR>
+"---------------------------------------------
 
 "Open the terminal
 nmap <Leader>tl <Plug>(coc-terminal-toggle)
@@ -59,6 +61,7 @@ nmap <Leader>so :source $HOME/.config/nvim/init.vim<CR>
 "New tab
 noremap <C-t> :tabnew split<CR>
 
+"------------------ C/C++ MAPPINGS --------------
 "Compile current C file
 nnoremap <Leader>gcc :!gcc -Wall % -o %:r<CR>
 
@@ -76,9 +79,19 @@ nnoremap <Leader>gpr :terminal ./%:r<CR>
 
 "Compile and run current C file
 nnoremap <Leader>gppr :!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>
+"---------------------------------------------
 
+"------------------ PYTHON MAPPINGS --------------
 "Run current python file
 nnoremap <Leader>py :!python3 %<CR>
 
 "Save file and run current python files
 nnoremap <Leader>wpy :w <bar> :!python3 %<CR>
+"---------------------------------------------
+
+"------------------ GO MAPPINGS --------------
+"Run current go file
+nnoremap <Leader>go :!go run %<CR>
+
+"Save file and run current go file
+nnoremap <Leader>wgo :w <bar> :!go run %<CR>
