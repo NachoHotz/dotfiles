@@ -10,6 +10,9 @@
     "typescriptreact",
     "ts",
     "tsx",
+    "go",
+    "rs",
+    "rust",
     "c",
     "cpp",
     "python",
@@ -17,7 +20,10 @@
     "ejs",
     "json",
     "php",
-    "xml"
+    "xml",
+    "yml",
+    "yaml",
+    "toml"
   ],
   "prettier.semi": true,
   "prettier.trailingComma": "all",
