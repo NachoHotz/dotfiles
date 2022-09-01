@@ -42,6 +42,7 @@ endif
 "autocompletion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
+Plug 'rust-lang/rust.vim'
 
 "shows relative numbers or not depending of mode
 Plug 'ericbn/vim-relativize'

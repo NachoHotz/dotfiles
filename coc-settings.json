@@ -27,5 +27,6 @@
   "markdownlint.config": { "MD013": false },
   "javascript.suggest.paths": true,
   "javascript.suggest.names": false,
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/14.0.3/clangd_14.0.3/bin/clangd"
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/14.0.3/clangd_14.0.3/bin/clangd",
+  "docker.enable": true
 }
