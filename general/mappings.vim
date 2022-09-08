@@ -92,3 +92,23 @@ nnoremap <Leader>go :!go run %<CR>
 
 "Save file and run current go file
 nnoremap <Leader>wgo :w <bar> :!go run %<CR>
+
+"------------------ RUST MAPPINGS --------------
+
+"Run current rust file
+nnoremap <Leader>rs :!cargo run<CR>
+
+"Save file and run current rust file
+nnoremap <Leader>wrs :w <bar> :!cargo run<CR>
+
+"Compile current rust file
+nnoremap <Leader>rb :!cargo build<CR>
+
+"Save file and compile current rust file
+nnoremap <Leader>wrb :w <bar> :!cargo build<CR>
+
+"Check current rust file
+nnoremap <Leader>rc :!cargo check<CR>
+
+"Save file and check current rust file
+nnoremap <Leader>wrc :w <bar> :!cargo check<CR>
