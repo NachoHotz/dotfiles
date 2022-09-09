@@ -15,8 +15,8 @@ Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' "see whitespaces in red
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
-Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, etc
+Plug 'jiangmiao/auto-pairs' "auto close brackets
 
 "nerdtree
 Plug 'scrooloose/nerdtree'
@@ -24,14 +24,14 @@ Plug 'xuyuanp/nerdtree-git-plugin' "git integration for file changes/stages
 Plug 'PhilRunninger/nerdtree-visual-selection' "select multiple files
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons' "file icons
-Plug 'pbrisbin/vim-mkdir' "to make a new directory without errors
+Plug 'pbrisbin/vim-mkdir' "create directory from nerdtree
 
 "Git integration
-Plug 'tpope/vim-fugitive'
-Plug 'rhysd/git-messenger.vim'
+Plug 'tpope/vim-fugitive' "git commands
+Plug 'rhysd/git-messenger.vim' "show git commit message
 
 if has('nvim') || has('patch-8.0.902')
-  Plug 'mhinz/vim-signify'
+  Plug 'mhinz/vim-signify' "show git changes
 else
   Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
 endif
@@ -41,15 +41,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
 Plug 'rust-lang/rust.vim'
 
-"shows relative numbers or not depending of mode
-Plug 'ericbn/vim-relativize'
+Plug 'ericbn/vim-relativize' "relative numbers depending of mode
 
-"for better comment mappings
-Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdcommenter' "comment lines commands
 
-"wild menu
 if has('nvim')
-  Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' } "wild menu
 else
   Plug 'gelguy/wilder.nvim'
 endif
