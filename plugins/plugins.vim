@@ -3,8 +3,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 "colorschemes
 Plug 'sainnhe/gruvbox-material'
-Plug 'ishan9299/nvim-solarized-lua'
-Plug 'cocopon/iceberg.vim'
 
 "airline
 Plug 'vim-airline/vim-airline'
