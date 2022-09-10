@@ -116,12 +116,12 @@ nnoremap <Leader>wrc :w <bar> :!cargo check<CR>
 "------------------ FZF MAPPINGS --------------
 
 "Open FZF
-nnoremap <silent><Leader>ff :Files<CR> " Open FZF file finder
-nnoremap <silent><Leader>fg :GFiles<CR> " Open FZF git file finder
-nnoremap <silent><Leader>fb :Buffers<CR> " Open FZF buffer finder
-nnoremap <silent><Leader>fh :History<CR> " Open FZF history finder
-nnoremap <silent><Leader>fm :Marks<CR> " Open FZF marks finder
-nnoremap <silent><Leader>ft :Tags<CR> " Open FZF tags finder
+nnoremap <silent><Leader>ff :Files<CR>
+nnoremap <silent><Leader>fg :GFiles<CR>
+nnoremap <silent><Leader>fb :Buffers<CR>
+nnoremap <silent><Leader>fh :History<CR>
+nnoremap <silent><Leader>fm :Marks<CR>
+nnoremap <silent><Leader>ft :Tags<CR>
 
 "FZF Ag search
 nnoremap <silent><Leader>fa :Ag<CR>
