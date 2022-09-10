@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 "colorschemes
 Plug 'sainnhe/gruvbox-material'
+Plug 'cocopon/iceberg.vim'
 
 "airline
 Plug 'vim-airline/vim-airline'
@@ -50,5 +51,13 @@ if has('nvim')
 else
   Plug 'gelguy/wilder.nvim'
 endif
+
+" FZF
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" Ultisnips
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
