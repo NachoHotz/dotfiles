@@ -4,6 +4,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "colorschemes
 Plug 'sainnhe/gruvbox-material'
 Plug 'cocopon/iceberg.vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'marko-cerovac/material.nvim'
 
 "airline
 Plug 'vim-airline/vim-airline'
@@ -18,6 +20,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' "auto close brackets
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 "nerdtree
 Plug 'scrooloose/nerdtree'
