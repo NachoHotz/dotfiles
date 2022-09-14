@@ -22,6 +22,9 @@ Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, e
 Plug 'jiangmiao/auto-pairs' "auto close brackets
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
+" Dart && Flutter
+Plug 'dart-lang/dart-vim-plugin'
+
 "nerdtree
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin' "git integration for file changes/stages

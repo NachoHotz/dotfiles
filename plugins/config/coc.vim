@@ -48,3 +48,12 @@ nmap <Leader>es :CocCommand eslint.executeAutofix<CR>
 nmap <Leader>mk :CocCommand markdownlint.fixAll<CR>
 nmap <Leader>p :CocCommand prettier.formatFile<CR>
 nmap <Leader>cda <Plug>(coc-codeaction-line)
+
+"-------------------------- Flutter commands ----------------------
+
+" Flutter commands
+nmap <Leader>flr :CocCommand flutter.run<CR>
+nmap <Leader>flhr :CocCommand flutter.dev.hotRestart<CR>
+nmap <Leader>flq :CocCommand flutter.dev.quit<CR>
+nmap <Leader>fld :CocCommand flutter.devices<CR>
+nmap <Leader>fle :CocCommand flutter.emulators<CR>

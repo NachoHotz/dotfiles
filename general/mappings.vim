@@ -128,3 +128,8 @@ nnoremap <silent><Leader>fa :Ag<CR>
 
 "FZF Ripgrep search
 nnoremap <silent><Leader>fr :Rg<CR>
+
+"------------------ BUN MAPPINGS --------------
+
+"Run current js/ts files
+nnoremap <Leader>br :!bun run %<CR>
