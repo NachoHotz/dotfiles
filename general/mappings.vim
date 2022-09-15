@@ -12,17 +12,6 @@ nnoremap <silent><Leader>q :q<CR>
 nnoremap <silent><Leader>wq :wq<CR>
 nnoremap <silent><Leader>ew :q!<CR>
 
-"------------ NODE JS/TS MAPPINGS ------------
-"Run current JS file
-nnoremap <silent><Leader>no :!node %<CR>
-
-"Save and run current JS file
-nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
-
-"Save the current file and run the typescript compiler
-nmap <Leader>wts :w <bar> :!tsc<CR>
-"---------------------------------------------
-
 "Open the terminal
 nmap <Leader>tl :terminal<CR>
 
@@ -57,6 +46,18 @@ noremap <Leader><S-Tab> :bw!<CR>
 
 "New tab
 noremap <C-t> :tabnew split<CR>
+
+"------------ NODE JS/TS MAPPINGS ------------
+"Run current JS file
+nnoremap <silent><Leader>no :!node %<CR>
+
+"Save and run current JS file
+nnoremap <silent><Leader>wno :w <bar> :!node %<CR>
+
+"Save the current file and run the typescript compiler
+nmap <Leader>wts :w <bar> :!tsc<CR>
+"---------------------------------------------
+
 
 "------------------ C/C++ MAPPINGS --------------
 "Compile current C file
@@ -131,5 +132,8 @@ nnoremap <silent><Leader>fr :Rg<CR>
 
 "------------------ BUN MAPPINGS --------------
 
-"Run current js/ts files
+"Run current JS/TS files
 nnoremap <Leader>br :!bun run %<CR>
+
+"Save file and run current JS/TS files
+nnoremap <Leader>wbr :w <bar> :!bun run %<CR>
