@@ -45,13 +45,3 @@ vim.keymap.set('n', '<Leader>es', ':CocCommand eslint.executeAutofix<CR>', {nore
 vim.keymap.set('n', '<Leader>mk', ':CocCommand markdownlint.fixAll<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>p', ':CocCommand prettier.formatFile<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>cda', '<Plug>(coc-codeaction-line)', {noremap = true})
-
--------------------------- Flutter commands ----------------------
-
--- Flutter commands
-vim.keymap.set('n', '<Leader>flr', ':CocCommand flutter.run<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>flhr', ':CocCommand flutter.dev.hotRestart<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>flq', ':CocCommand flutter.dev.quit<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>fld', ':CocCommand flutter.devices<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>fle', ':CocCommand flutter.emulators<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>flb', ':CocCommand flutter.dev.debugDumpAPP<CR>', {noremap = true})
