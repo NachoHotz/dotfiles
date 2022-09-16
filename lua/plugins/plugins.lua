@@ -27,6 +27,7 @@ Plug 'jiangmiao/auto-pairs' -- auto close brackets
 Plug ('evanleck/vim-svelte', {branch = 'main'})
 Plug 'pantharshit00/vim-prisma'
 Plug 'simrat39/rust-tools.nvim'
+Plug 'b0o/schemastore.nvim'
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'

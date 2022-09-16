@@ -1,22 +1,31 @@
+--Enable (broadcasting) snippet capability for completion
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
 require('lspconfig').clangd.setup{}
 require('lspconfig').pyright.setup{}
 require('lspconfig').tsserver.setup{}
 require('lspconfig').dockerls.setup{}
 require('lspconfig').emmet_ls.setup{}
 require('lspconfig').eslint.setup{}
-require('go').setup({
-  options = {
-    cmd = {'gopls', '--remote=auto'},
-  }
-})
 require('lspconfig').gopls.setup{}
 require('lspconfig').graphql.setup{}
-require('lspconfig').jsonls.setup{}
+require('lspconfig').jsonls.setup{
+  settings = {
+    json = {
+      schemas = require('schemastore').json.schemas(),
+      validate = { enable = true },
+    }
+  },
+  capabilities = capabilities,
+}
 require('lspconfig').prismals.setup{}
 require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
-require('flutter-tools').setup{}
 require('lspconfig').yamlls.setup{}
+
+require('flutter-tools').setup{}
+
 require('bufferline').setup{
   options = {
     diagnostics = "nvim_lsp",
@@ -26,6 +35,11 @@ require('bufferline').setup{
     end
   }
 }
+require('go').setup({
+  options = {
+    cmd = {'gopls', '--remote=auto'},
+  }
+})
 
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>') -- Jump to definition
