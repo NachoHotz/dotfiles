@@ -1,4 +1,4 @@
-vim.NERDTreeQuitOnOpen = true
+vim.g.NERDTreeQuitOnOpen = true
 vim.g.NERDTreeDirArrowExpandable = '▸'
 vim.g.NERDTreeDirArrowCollapsible = '▾'
 

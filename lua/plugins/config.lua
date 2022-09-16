@@ -9,12 +9,12 @@ require('plugins.config.flutter-tools')
 require('plugins.config.nerdtree')
 require('plugins.config.wildermenu')
 require('plugins.config.lualine')
+require('plugins.config.lspconfig')
+require('plugins.config.cmp')
+require('plugins.config.tabnine')
 require('copilot').setup()
 require('copilot_cmp').setup{
   method = "getCompletionsCycling",
 }
-require('plugins.config.lspconfig')
-require('plugins.config.cmp')
-require('plugins.config.tabnine')
 
 vim.cmd [[silent! colorscheme material]]
