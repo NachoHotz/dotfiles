@@ -1,0 +1,13 @@
+require('lspconfig').clangd.setup{}
+require('lspconfig').pyright.setup{}
+require('lspconfig').tsserver.setup{}
+require('lspconfig').dockerls.setup{}
+require('lspconfig').emmet_ls.setup{}
+require('lspconfig').eslint.setup{}
+require('lspconfig').golangci_lint_ls.setup{}
+require('lspconfig').gopls.setup{}
+require('lspconfig').graphql.setup{}
+require('lspconfig').jsonls.setup{}
+require('lspconfig').prismals.setup{}
+require('lspconfig').rust_analyzer.setup{}
+require('lspconfig').tailwindcss.setup{}
