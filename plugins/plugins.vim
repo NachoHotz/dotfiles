@@ -21,6 +21,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' "auto close brackets
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'pantharshit00/vim-prisma'
 
 " Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'

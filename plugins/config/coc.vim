@@ -57,3 +57,4 @@ nmap <Leader>flhr :CocCommand flutter.dev.hotRestart<CR>
 nmap <Leader>flq :CocCommand flutter.dev.quit<CR>
 nmap <Leader>fld :CocCommand flutter.devices<CR>
 nmap <Leader>fle :CocCommand flutter.emulators<CR>
+nmap <Leader>flb :CocCommand flutter.dev.debugDumpAPP<CR>
