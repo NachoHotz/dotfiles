@@ -26,6 +26,7 @@ Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses,
 Plug 'jiangmiao/auto-pairs' -- auto close brackets
 Plug ('evanleck/vim-svelte', {branch = 'main'})
 Plug 'pantharshit00/vim-prisma'
+Plug 'simrat39/rust-tools.nvim'
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'
@@ -59,6 +60,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug ('tzachar/cmp-tabnine', { ['do'] = './install.sh' })
+Plug 'crispgm/nvim-go'
 
 -- snippets
 Plug 'SirVer/ultisnips'
