@@ -1,5 +1,4 @@
 ---------------------------------Sources-------------------------------
---require('config.coc')
 require('plugins.config.gitfugitive')
 require('plugins.config.gruvbox-material')
 require('plugins.config.material')
