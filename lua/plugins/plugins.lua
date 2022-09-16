@@ -27,6 +27,8 @@ Plug 'pantharshit00/vim-prisma'
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'akinsho/flutter-tools.nvim'
+Plug 'nvim-lua/plenary.nvim'
 
 -- nerdtree
 Plug 'scrooloose/nerdtree'

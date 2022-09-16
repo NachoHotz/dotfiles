@@ -11,6 +11,7 @@ require('lspconfig').jsonls.setup{}
 require('lspconfig').prismals.setup{}
 require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
+require('flutter-tools').setup{}
 
 -- Show hover
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>')
