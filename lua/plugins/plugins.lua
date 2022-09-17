@@ -20,8 +20,6 @@ Plug ('akinsho/bufferline.nvim', { tag = 'v2.*' })
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' -- auto close brackets
 Plug 'pantharshit00/vim-prisma'
@@ -74,6 +72,8 @@ Plug 'ericbn/vim-relativize' -- relative numbers depending of mode
 Plug 'preservim/nerdcommenter' -- comment lines commands
 
 Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
+
+Plug 'nvim-treesitter/nvim-treesitter'
 
 -- FZF
 Plug ('junegunn/fzf', { ['do'] = vim.fn['fzf#install'] })
