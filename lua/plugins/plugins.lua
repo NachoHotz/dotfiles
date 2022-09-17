@@ -20,6 +20,8 @@ Plug ('akinsho/bufferline.nvim', { tag = 'v2.*' })
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' -- auto close brackets
 Plug 'pantharshit00/vim-prisma'
@@ -65,20 +67,16 @@ Plug ('tzachar/cmp-tabnine', { ['do'] = './install.sh' })
 -- snippets
 Plug 'SirVer/ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+Plug 'honza/vim-snippets'
 
 Plug 'ericbn/vim-relativize' -- relative numbers depending of mode
 
 Plug 'preservim/nerdcommenter' -- comment lines commands
-
 
 Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
 
 -- FZF
 Plug ('junegunn/fzf', { ['do'] = vim.fn['fzf#install'] })
 Plug 'junegunn/fzf.vim'
-
-Plug 'honza/vim-snippets'
-
-Plug ('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn['TSUpdate']})
 
 vim.call('plug#end')
