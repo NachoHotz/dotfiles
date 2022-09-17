@@ -48,10 +48,10 @@ cmp.setup {
          format = lspkind.cmp_format {
             with_text = true,
             menu = {
-               nvim_lua = "[LUA]",
+               nvim_lua = "[Lua]",
                buffer   = "[buf]",
                nvim_lsp = "[LSP]",
-               ultisnips  = "[snip]",
+               ultisnips  = "[UltiSnip]",
                path     = "[path]",
                cmp_tabnine = "[TN]",
             },

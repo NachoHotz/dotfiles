@@ -2,14 +2,17 @@
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
+local formatting = require('null-ls').builtins.formatting
+local diagnostics = require('null-ls').builtins.diagnostics
+
 require('lspconfig').clangd.setup{}
 require('lspconfig').pyright.setup{}
 require('lspconfig').tsserver.setup{}
 require('lspconfig').dockerls.setup{}
 require('lspconfig').emmet_ls.setup{}
-require('lspconfig').eslint.setup{}
 require('lspconfig').gopls.setup{}
 require('lspconfig').graphql.setup{}
+
 require('lspconfig').jsonls.setup{
   settings = {
     json = {
@@ -19,11 +22,11 @@ require('lspconfig').jsonls.setup{
   },
   capabilities = capabilities,
 }
+
 require('lspconfig').prismals.setup{}
 require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
 require('lspconfig').yamlls.setup{}
-
 require('flutter-tools').setup{}
 
 require('bufferline').setup{
@@ -35,9 +38,18 @@ require('bufferline').setup{
     end
   }
 }
+
 require('go').setup({
   options = {
     cmd = {'gopls', '--remote=auto'},
+  }
+})
+
+require('null-ls').setup({
+  sources = {
+    formatting.prettier,
+    formatting.eslint,
+    diagnostics.flake8,
   }
 })
 

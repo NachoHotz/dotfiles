@@ -1,5 +1,6 @@
 ---------------------------------Sources-------------------------------
 require('plugins.config.gitfugitive')
+require('plugins.config.treesitter')
 require('plugins.config.gruvbox-material')
 require('plugins.config.material')
 require('plugins.config.typescript')
