@@ -10,7 +10,6 @@ require('plugins.config.wildermenu')
 require('plugins.config.lualine')
 require('plugins.config.lspconfig')
 require('plugins.config.cmp')
-require('plugins.config.tabnine')
 require('plugins.config.treesitter')
 require('copilot').setup()
 require('copilot_cmp').setup{

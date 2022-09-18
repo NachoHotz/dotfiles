@@ -54,7 +54,6 @@ Plug 'rust-lang/rust.vim'
 Plug 'onsails/lspkind.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'crispgm/nvim-go'
-Plug ('tzachar/cmp-tabnine', { ['do'] = './install.sh' })
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'
