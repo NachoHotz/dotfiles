@@ -1,9 +1,9 @@
 --Enable (broadcasting) snippet capability for completion
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.textDocument.completion.completionItem.snippetSupport = true
-
 local formatting = require('null-ls').builtins.formatting
 local diagnostics = require('null-ls').builtins.diagnostics
+
+capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 require('lspconfig').clangd.setup{}
 require('lspconfig').pyright.setup{}
