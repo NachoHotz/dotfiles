@@ -31,7 +31,10 @@ Plug ('evanleck/vim-svelte', {branch = 'main'})
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'akinsho/flutter-tools.nvim'
+
+-- Telescope
 Plug 'nvim-lua/plenary.nvim'
+Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.0' })
 
 -- nerdtree
 Plug 'scrooloose/nerdtree'
@@ -47,20 +50,24 @@ Plug 'rhysd/git-messenger.vim' -- show git commit message
 Plug 'mhinz/vim-signify' -- show git changes
 
 -- autocompletion
-Plug 'zbirenbaum/copilot.lua'
-Plug 'github/copilot.vim'
-Plug 'zbirenbaum/copilot-cmp'
 Plug 'rust-lang/rust.vim'
 Plug 'onsails/lspkind.nvim'
 Plug 'neovim/nvim-lspconfig'
+Plug 'crispgm/nvim-go'
+Plug ('tzachar/cmp-tabnine', { ['do'] = './install.sh' })
+
+-- copilot
+Plug 'zbirenbaum/copilot.lua'
+Plug 'github/copilot.vim'
+Plug 'zbirenbaum/copilot-cmp'
+
+-- cmp
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'crispgm/nvim-go'
-Plug ('tzachar/cmp-tabnine', { ['do'] = './install.sh' })
 
 -- snippets
 Plug 'SirVer/ultisnips'
@@ -74,9 +81,5 @@ Plug 'preservim/nerdcommenter' -- comment lines commands
 Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
 
 Plug 'nvim-treesitter/nvim-treesitter'
-
--- FZF
-Plug ('junegunn/fzf', { ['do'] = vim.fn['fzf#install'] })
-Plug 'junegunn/fzf.vim'
 
 vim.call('plug#end')
