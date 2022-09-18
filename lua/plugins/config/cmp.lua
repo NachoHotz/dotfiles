@@ -53,7 +53,6 @@ cmp.setup {
                nvim_lsp = "[LSP]",
                ultisnips  = "[UltiSnip]",
                path     = "[path]",
-               --cmp_tabnine = "[TN]",
             },
          },
       },
@@ -64,7 +63,6 @@ cmp.setup {
          { name = "nvim_lsp", group_index = 2},
          { name = "path", group_index = 2 },
          { name = "ultisnips", group_index = 2 },
-         --{ name = "cmp_tabnine" },
          { name = "buffer" , keyword_length = 5},
       },
       experimental = {
