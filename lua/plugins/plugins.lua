@@ -27,6 +27,7 @@ Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug ('evanleck/vim-svelte', {branch = 'main'})
+Plug 'wuelnerdotexe/vim-astro'
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'

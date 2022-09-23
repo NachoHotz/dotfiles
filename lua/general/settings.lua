@@ -27,6 +27,4 @@ set.mouse=a -- Enable your mouse
 set.completeopt=menuone,noinsert,noselect,preview -- Completion options (for deoplete)
 set.clipboard = 'unnamedplus'
 
-vim.cmd[[au BufNewFile,BufRead *.ejs set filetype=html']] -- Set filetype for ejs files
-
 vim.g.mapleader = ' '

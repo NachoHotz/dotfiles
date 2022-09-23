@@ -9,9 +9,22 @@ require('lspconfig').clangd.setup{}
 require('lspconfig').pyright.setup{}
 require('lspconfig').tsserver.setup{}
 require('lspconfig').dockerls.setup{}
-require('lspconfig').emmet_ls.setup{}
 require('lspconfig').gopls.setup{}
 require('lspconfig').graphql.setup{}
+require('lspconfig').prismals.setup{}
+require('lspconfig').rust_analyzer.setup{}
+require('lspconfig').tailwindcss.setup{}
+require('lspconfig').yamlls.setup{}
+require('flutter-tools').setup{}
+require('lspconfig').emmet_ls.setup{}
+require('lspconfig').vuels.setup{}
+require('lspconfig').taplo.setup{}
+require('lspconfig').cssmodules_ls.setup{}
+require('lspconfig').astro.setup{}
+
+require'lspconfig'.cssls.setup {
+  capabilities = capabilities,
+}
 
 require('lspconfig').jsonls.setup{
   settings = {
@@ -22,12 +35,6 @@ require('lspconfig').jsonls.setup{
   },
   capabilities = capabilities,
 }
-
-require('lspconfig').prismals.setup{}
-require('lspconfig').rust_analyzer.setup{}
-require('lspconfig').tailwindcss.setup{}
-require('lspconfig').yamlls.setup{}
-require('flutter-tools').setup{}
 
 require('bufferline').setup{
   options = {
@@ -53,6 +60,7 @@ require('null-ls').setup({
   }
 })
 
+------------------------ MAPPINGS ------------------------
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>') -- Jump to definition
