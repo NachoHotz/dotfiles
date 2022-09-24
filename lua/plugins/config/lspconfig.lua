@@ -1,7 +1,5 @@
 --Enable (broadcasting) snippet capability for completion
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-local formatting = require('null-ls').builtins.formatting
-local diagnostics = require('null-ls').builtins.diagnostics
 
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
@@ -17,12 +15,13 @@ require('lspconfig').tailwindcss.setup{}
 require('lspconfig').yamlls.setup{}
 require('flutter-tools').setup{}
 require('lspconfig').emmet_ls.setup{}
-require('lspconfig').vuels.setup{}
+require('lspconfig').volar.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
+require('lspconfig').eslint.setup{}
 require('lspconfig').astro.setup{}
 
-require'lspconfig'.cssls.setup {
+require('lspconfig').cssls.setup {
   capabilities = capabilities,
 }
 
@@ -52,14 +51,6 @@ require('go').setup({
   }
 })
 
-require('null-ls').setup({
-  sources = {
-    formatting.prettier,
-    formatting.eslint,
-    diagnostics.flake8,
-  }
-})
-
 ------------------------ MAPPINGS ------------------------
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
@@ -68,3 +59,4 @@ vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>') -- Show 
 vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump to implementation
 vim.keymap.set('n', 'gr', '<Cmd>lua vim.lsp.buf.references()<CR>') -- Jump to references
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') --Open code actions using the default lsp UI, if you want to change this please see the plugins above
+vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.formatting()<CR>')

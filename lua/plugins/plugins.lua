@@ -22,12 +22,11 @@ Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' -- auto close brackets
-Plug 'pantharshit00/vim-prisma'
+--Plug 'pantharshit00/vim-prisma'
 Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim'
-Plug 'jose-elias-alvarez/null-ls.nvim'
-Plug ('evanleck/vim-svelte', {branch = 'main'})
 Plug 'wuelnerdotexe/vim-astro'
+Plug ('evanleck/vim-svelte', {branch = 'main'})
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'

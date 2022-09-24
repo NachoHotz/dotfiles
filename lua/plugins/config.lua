@@ -17,3 +17,4 @@ require('copilot_cmp').setup{
 }
 
 vim.cmd [[silent! colorscheme material]]
+vim.cmd [[autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js *.vue EslintFixAll]]
