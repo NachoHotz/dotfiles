@@ -54,6 +54,7 @@ cmp.setup {
                nvim_lsp = "[LSP]",
                ultisnips  = "[UltiSnip]",
                path     = "[path]",
+               emmetls = "[emmet]",
             },
          },
       },
@@ -65,6 +66,7 @@ cmp.setup {
          { name = "path", group_index = 2 },
          { name = "ultisnips", group_index = 2 },
          { name = "buffer" , keyword_length = 5},
+         { name = "emmetls", group_index = 2 }
       },
       experimental = {
          ghost_text = true

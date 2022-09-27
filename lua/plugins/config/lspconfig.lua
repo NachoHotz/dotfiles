@@ -13,13 +13,13 @@ require('lspconfig').prismals.setup{}
 require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
 require('lspconfig').yamlls.setup{}
-require('flutter-tools').setup{}
 require('lspconfig').emmet_ls.setup{}
 require('lspconfig').volar.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
 require('lspconfig').eslint.setup{}
 require('lspconfig').astro.setup{}
+require('flutter-tools').setup{}
 
 require('lspconfig').cssls.setup {
   capabilities = capabilities,
