@@ -18,8 +18,8 @@ require('lspconfig').volar.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
 require('lspconfig').eslint.setup{}
-require('lspconfig').astro.setup{}
 require('flutter-tools').setup{}
+require("mason").setup()
 
 require('lspconfig').cssls.setup {
   capabilities = capabilities,
