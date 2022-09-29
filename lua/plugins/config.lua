@@ -1,4 +1,25 @@
 ---------------------------------Sources-------------------------------
+
+require("mason").setup()
+require("mason-lspconfig").setup()
+require('flutter-tools').setup{}
+
+require('bufferline').setup{
+  options = {
+    diagnostics = "nvim_lsp",
+    diagnostics_indicator = function(count, level, diagnostics_dict, context)
+      local icon = level:match("error") and " " or " "
+      return " " .. icon .. count
+    end
+  }
+}
+
+require('go').setup({
+  options = {
+    cmd = {'gopls', '--remote=auto'},
+  }
+})
+
 require('plugins.config.gitfugitive')
 require('plugins.config.gruvbox-material')
 require('plugins.config.material')

@@ -28,6 +28,7 @@ Plug 'wuelnerdotexe/vim-astro'
 Plug ('evanleck/vim-svelte', {branch = 'main'})
 
 Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
 
 -- Dart && Flutter
 Plug 'dart-lang/dart-vim-plugin'

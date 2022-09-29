@@ -18,8 +18,6 @@ require('lspconfig').volar.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
 require('lspconfig').eslint.setup{}
-require('flutter-tools').setup{}
-require("mason").setup()
 
 require('lspconfig').cssls.setup {
   capabilities = capabilities,
@@ -34,22 +32,6 @@ require('lspconfig').jsonls.setup{
   },
   capabilities = capabilities,
 }
-
-require('bufferline').setup{
-  options = {
-    diagnostics = "nvim_lsp",
-    diagnostics_indicator = function(count, level, diagnostics_dict, context)
-      local icon = level:match("error") and " " or " "
-      return " " .. icon .. count
-    end
-  }
-}
-
-require('go').setup({
-  options = {
-    cmd = {'gopls', '--remote=auto'},
-  }
-})
 
 ------------------------ MAPPINGS ------------------------
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
