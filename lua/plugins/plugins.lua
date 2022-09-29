@@ -27,6 +27,9 @@ Plug 'b0o/schemastore.nvim'
 Plug 'wuelnerdotexe/vim-astro'
 Plug ('evanleck/vim-svelte', {branch = 'main'})
 
+--- LSP && Mason
+Plug 'onsails/lspkind.nvim'
+Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 
@@ -53,8 +56,6 @@ Plug 'mhinz/vim-signify' -- show git changes
 
 -- autocompletion
 Plug 'rust-lang/rust.vim'
-Plug 'onsails/lspkind.nvim'
-Plug 'neovim/nvim-lspconfig'
 Plug 'crispgm/nvim-go'
 
 -- copilot
