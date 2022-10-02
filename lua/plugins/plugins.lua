@@ -5,17 +5,15 @@ local Plug = vim.fn['plug#']
 
 -- colorschemes
 Plug 'sainnhe/gruvbox-material'
-Plug 'cocopon/iceberg.vim'
-Plug 'arcticicestudio/nord-vim'
 Plug 'marko-cerovac/material.nvim'
 
 -- lualine
 Plug 'nvim-lualine/lualine.nvim'
--- If you want to have icons in your statusline choose one of these
 Plug 'kyazdani42/nvim-web-devicons'
 
 Plug 'akinsho/bufferline.nvim'
 
+-- nvim tree
 Plug 'kyazdani42/nvim-tree.lua'
 
 -- syntax
@@ -45,7 +43,6 @@ Plug 'nvim-telescope/telescope.nvim'
 
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
-Plug 'rhysd/git-messenger.vim' -- show git commit message
 Plug 'mhinz/vim-signify' -- show git changes
 
 -- autocompletion
