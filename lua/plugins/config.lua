@@ -21,6 +21,7 @@ require('go').setup({
 })
 
 require('plugins.config.gitfugitive')
+require('plugins.config.indent-blackline')
 require('plugins.config.gruvbox-material')
 require('plugins.config.material')
 require('plugins.config.typescript')

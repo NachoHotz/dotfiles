@@ -1,6 +1,6 @@
 -------------------------------Mappings-------------------------------
 vim.keymap.set('n', '<Leader>gi', ':Git init<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>gd', ':Git diff<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>gd', ':Gvdiffsplit<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>gds', ':Git diff --staged<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>gst', ':Git status<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>gad', ':Git add .<CR>', {noremap = true})

@@ -14,7 +14,7 @@ Plug 'nvim-lualine/lualine.nvim'
 -- If you want to have icons in your statusline choose one of these
 Plug 'kyazdani42/nvim-web-devicons'
 
-Plug ('akinsho/bufferline.nvim', { tag = 'v2.*' })
+Plug 'akinsho/bufferline.nvim'
 
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
@@ -39,7 +39,7 @@ Plug 'akinsho/flutter-tools.nvim'
 
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
-Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.0' })
+Plug 'nvim-telescope/telescope.nvim'
 
 -- nerdtree
 Plug 'scrooloose/nerdtree'
