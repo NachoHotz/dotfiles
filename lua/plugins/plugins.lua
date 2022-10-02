@@ -27,6 +27,8 @@ Plug 'b0o/schemastore.nvim'
 Plug 'wuelnerdotexe/vim-astro'
 Plug ('evanleck/vim-svelte', {branch = 'main'})
 
+Plug 'turbio/bracey.vim'
+
 --- LSP && Mason
 Plug 'onsails/lspkind.nvim'
 Plug 'neovim/nvim-lspconfig'
