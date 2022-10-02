@@ -16,6 +16,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 Plug 'akinsho/bufferline.nvim'
 
+Plug 'kyazdani42/nvim-tree.lua'
+
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'leafgarland/typescript-vim'
@@ -40,14 +42,6 @@ Plug 'akinsho/flutter-tools.nvim'
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-
--- nerdtree
-Plug 'scrooloose/nerdtree'
-Plug 'xuyuanp/nerdtree-git-plugin' -- git integration for file changes/stages
-Plug 'PhilRunninger/nerdtree-visual-selection' -- select multiple files
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons' -- file icons
-Plug 'pbrisbin/vim-mkdir' -- create directory from nerdtree
 
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
