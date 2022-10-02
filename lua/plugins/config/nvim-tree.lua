@@ -1,9 +1,20 @@
 -------------------------------Mappings-------------------------------
 require('nvim-tree').setup{
+  view = {
+    mappings = {
+      list = {
+        { key = 'x', action = 'close_node' }
+      }
+    }
+  },
   actions = {
     open_file = {
       quit_on_open = true
     }
+  },
+  diagnostics = {
+    enable = true,
+    show_on_dirs = true
   }
 }
 
