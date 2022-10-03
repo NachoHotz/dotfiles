@@ -116,7 +116,7 @@ vim.keymap.set('n', '<Leader>wrc', ':w <bar> :!cargo check<CR>', {noremap = true
 
 ------------------ Telescope MAPPINGS --------------
 
---Open FZF
+--Open Telescope
 vim.keymap.set('n', '<Leader>ff', ':Telescope find_files<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>fcf', ':Telescope current_buffer_fuzzy_find<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>fg', ':Telescope git_files<CR>', {noremap = true})
