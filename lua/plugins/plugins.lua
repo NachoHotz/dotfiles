@@ -49,7 +49,6 @@ Plug 'mhinz/vim-signify' -- show git changes
 
 -- autocompletion
 Plug 'rust-lang/rust.vim'
-Plug 'crispgm/nvim-go'
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'

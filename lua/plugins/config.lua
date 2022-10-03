@@ -14,12 +14,6 @@ require('bufferline').setup{
   }
 }
 
-require('go').setup({
-  options = {
-    cmd = {'gopls', '--remote=auto'},
-  }
-})
-
 require('plugins.config.gitfugitive')
 require('plugins.config.bracey')
 require('plugins.config.indent-blackline')
