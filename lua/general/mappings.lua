@@ -20,8 +20,6 @@ vim.keymap.set('n', '<Leader>wtl', ':w <bar> :terminal<CR>', {noremap = true})
 
 --Npm commnands
 vim.keymap.set('n', '<Leader>ni', ':!npm init -y<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>nis', ':!npm i<CR>', {noremap = true})
-vim.keymap.set('n', '<Leader>niss', ':!npm i ', {noremap = true})
 
 --Windows swap
 vim.keymap.set('n', '<Leader>j', ':wincmd j<CR>', {noremap = true})
@@ -97,22 +95,22 @@ vim.keymap.set('n', '<Leader>wgo', ':w <bar> :!go run %<CR>', {noremap = true})
 ------------------ RUST MAPPINGS --------------
 
 --Run current rust file
-vim.keymap.set('n', '<Leader>rs', ':!cargo run<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>cr', ':!cargo run<CR>', {noremap = true})
 
 --Save file and run current rust file
-vim.keymap.set('n', '<Leader>wrs', ':w <bar> :!cargo run<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>wcr', ':w <bar> :!cargo run<CR>', {noremap = true})
 
 --Compile current rust file
-vim.keymap.set('n', '<Leader>rb', ':!cargo build<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>cb', ':!cargo build<CR>', {noremap = true})
 
 --Save file and compile current rust file
-vim.keymap.set('n', '<Leader>wrb', ':w <bar> :!cargo build<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>wcb', ':w <bar> :!cargo build<CR>', {noremap = true})
 
 --Check current rust file
-vim.keymap.set('n', '<Leader>rc', ':!cargo check<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>ch', ':!cargo check<CR>', {noremap = true})
 
 --Save file and check current rust file
-vim.keymap.set('n', '<Leader>wrc', ':w <bar> :!cargo check<CR>', {noremap = true})
+vim.keymap.set('n', '<Leader>wch', ':w <bar> :!cargo check<CR>', {noremap = true})
 
 ------------------ Telescope MAPPINGS --------------
 
