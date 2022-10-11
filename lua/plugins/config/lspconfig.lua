@@ -41,4 +41,4 @@ vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>') -- Show 
 vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump to implementation
 vim.keymap.set('n', 'gr', '<Cmd>lua vim.lsp.buf.references()<CR>') -- Jump to references
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') --Open code actions using the default lsp UI, if you want to change this please see the plugins above
-vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.formatting()<CR>')
+vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>')
