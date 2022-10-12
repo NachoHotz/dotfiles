@@ -4,7 +4,6 @@ vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
 local Plug = vim.fn['plug#']
 
 -- colorschemes
-Plug 'sainnhe/gruvbox-material'
 Plug 'marko-cerovac/material.nvim'
 
 -- lualine
