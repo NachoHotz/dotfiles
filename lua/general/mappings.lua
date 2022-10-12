@@ -43,6 +43,7 @@ vim.keymap.set('n', '<Leader><S-Tab>', ':bw!<CR>', {noremap = true})
 vim.keymap.set('i', 'ii', '<Esc>', {noremap = true})
 
 ------------ NODE JS/TS MAPPINGS ------------
+
 --Run current JS file
 vim.keymap.set('n', '<Leader>no', ':!node %<CR>', {noremap = true})
 
@@ -51,6 +52,7 @@ vim.keymap.set('n', '<Leader>wno', ':w <bar> :!node %<CR>', {noremap = true})
 
 --Save the current file and run the typescript compiler
 vim.keymap.set('n', '<Leader>wts', ':w <bar> :!tsc<CR>', {noremap = true})
+
 ---------------------------------------------
 
 
