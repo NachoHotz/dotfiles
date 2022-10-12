@@ -43,8 +43,7 @@ Plug 'nvim-telescope/telescope.nvim'
 
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
---Plug 'mhinz/vim-signify' -- show git changes
-Plug 'lewis6991/gitsigns.nvim'
+Plug 'lewis6991/gitsigns.nvim' -- git change signs in buffers
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'
