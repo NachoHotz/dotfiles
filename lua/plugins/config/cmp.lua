@@ -15,7 +15,6 @@ local has_words_before = function()
 end
 
 cmp.setup {
-   -- As currently, i am not using any snippet manager, thus disabled it.
       snippet = {
         expand = function(args)
           vim.fn["UltiSnips#Anon"](args.body)
