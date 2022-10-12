@@ -4,6 +4,7 @@ require('gitsigns').setup()
 require("mason").setup()
 require("mason-lspconfig").setup()
 require('flutter-tools').setup{}
+require('nvim-autopairs').setup{}
 
 require('bufferline').setup{
   options = {

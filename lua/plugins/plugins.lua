@@ -20,7 +20,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
-Plug 'jiangmiao/auto-pairs' -- auto close brackets
+Plug 'windwp/nvim-autopairs'
 Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim'
 

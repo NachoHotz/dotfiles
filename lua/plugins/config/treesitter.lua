@@ -6,5 +6,9 @@ configs.setup {
   },
   indent = {
     enable = true, -- default is disabled anyways
+  },
+  rainbow = {
+    enable = true,
+    extended_mode = true,
   }
 }
