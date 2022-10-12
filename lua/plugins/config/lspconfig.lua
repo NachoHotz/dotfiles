@@ -14,7 +14,6 @@ require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
 require('lspconfig').yamlls.setup{}
 require('lspconfig').emmet_ls.setup{}
-require('lspconfig').volar.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
 require('lspconfig').eslint.setup{}
