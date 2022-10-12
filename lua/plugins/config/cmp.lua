@@ -16,25 +16,25 @@ end
 
 cmp.setup {
    -- As currently, i am not using any snippet manager, thus disabled it.
-       snippet = {
+      snippet = {
         expand = function(args)
           vim.fn["UltiSnips#Anon"](args.body)
         end,
       },
 
       mapping = {
-         ["<c-d>"] = cmp.mapping.scroll_docs(-4),
-         ["<c-f>"] = cmp.mapping.scroll_docs(4),
-         ["<Esc>"] = cmp.mapping.close(),
-         ["<CR>"] = cmp.mapping.confirm {
-            behavior = cmp.ConfirmBehavior.Insert,
-            select = true,
-         },
-         ["<Tab>"] = vim.schedule_wrap(function(fallback)
-           if cmp.visible() and has_words_before() then
-             cmp.select_next_item({ behavior = cmp.SelectBehavior.Select })
-           else
-             fallback()
+        ["<c-d>"] = cmp.mapping.scroll_docs(-4),
+        ["<c-f>"] = cmp.mapping.scroll_docs(4),
+        ["<Esc>"] = cmp.mapping.close(),
+        ["<CR>"] = cmp.mapping.confirm {
+          behavior = cmp.ConfirmBehavior.Insert,
+          select = true,
+        },
+        ["<Tab>"] = vim.schedule_wrap(function(fallback)
+          if cmp.visible() and has_words_before() then
+            cmp.select_next_item({ behavior = cmp.SelectBehavior.Select })
+          else
+            fallback()
           end
         end),
         ["<S-Tab>"] = function(fallback)
@@ -46,27 +46,27 @@ cmp.setup {
         end,
       },
       formatting = {
-         format = lspkind.cmp_format {
-            with_text = true,
-            menu = {
-               nvim_lua = "[Lua]",
-               buffer   = "[buf]",
-               nvim_lsp = "[LSP]",
-               ultisnips  = "[UltiSnip]",
-               path     = "[path]",
-            },
-         },
+        format = lspkind.cmp_format {
+          with_text = true,
+          menu = {
+            nvim_lua = "[Lua]",
+            buffer   = "[buf]",
+            nvim_lsp = "[LSP]",
+            ultisnips  = "[UltiSnip]",
+            path     = "[path]",
+          },
+        },
       },
 
       sources = {
-         { name = "nvim_lua" , group_index = 2},
-         { name = "copilot", group_index = 2 },
-         { name = "nvim_lsp", group_index = 2},
-         { name = "path", group_index = 2 },
-         { name = "ultisnips", group_index = 2 },
-         { name = "buffer" , keyword_length = 5},
+        { name = "nvim_lua" , group_index = 2},
+        { name = "copilot", group_index = 2 },
+        { name = "nvim_lsp", group_index = 2},
+        { name = "path", group_index = 2 },
+        { name = "ultisnips", group_index = 2 },
+        { name = "buffer" , keyword_length = 5},
       },
       experimental = {
-         ghost_text = true
+        ghost_text = true
       }
 }
