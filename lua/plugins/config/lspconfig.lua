@@ -13,23 +13,39 @@ require('lspconfig').prismals.setup{}
 require('lspconfig').rust_analyzer.setup{}
 require('lspconfig').tailwindcss.setup{}
 require('lspconfig').yamlls.setup{}
-require('lspconfig').emmet_ls.setup{}
 require('lspconfig').taplo.setup{}
 require('lspconfig').cssmodules_ls.setup{}
 require('lspconfig').eslint.setup{}
+
+require('lspconfig').html.setup{
+  capabilities = capabilities,
+}
+
+require('lspconfig').emmet_ls.setup{
+  capabilities = capabilities,
+  filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
+  init_options = {
+    html = {
+      options = {
+        -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+        ["bem.enabled"] = true,
+      },
+    },
+  }
+}
 
 require('lspconfig').cssls.setup {
   capabilities = capabilities,
 }
 
 require('lspconfig').jsonls.setup{
+  capabilities = capabilities,
   settings = {
     json = {
       schemas = require('schemastore').json.schemas(),
       validate = { enable = true },
     }
   },
-  capabilities = capabilities,
 }
 
 ------------------------ MAPPINGS ------------------------

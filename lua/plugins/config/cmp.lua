@@ -51,8 +51,8 @@ cmp.setup {
             nvim_lua = "[Lua]",
             buffer   = "[buf]",
             nvim_lsp = "[LSP]",
-            ultisnips  = "[UltiSnip]",
-            path     = "[path]",
+            ultisnips = "[UltiSnip]",
+            path     = "[Path]"
           },
         },
       },
@@ -63,7 +63,7 @@ cmp.setup {
         { name = "nvim_lsp", group_index = 2},
         { name = "path", group_index = 2 },
         { name = "ultisnips", group_index = 2 },
-        { name = "buffer" , keyword_length = 5},
+        { name = "buffer" , keyword_length = 5}
       },
       experimental = {
         ghost_text = true
