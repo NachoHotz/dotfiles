@@ -57,6 +57,7 @@ vim.keymap.set('n', '<Leader>wts', ':w <bar> :!tsc<CR>', {noremap = true})
 
 
 -------------------- C/C++ MAPPINGS --------------
+
 --Compile current C file
 vim.keymap.set('n', '<Leader>gcc', ':!gcc -Wall % -o %:r<CR>', {noremap = true})
 
@@ -74,17 +75,21 @@ vim.keymap.set('n', '<Leader>gpr', ':terminal ./%:r<CR>', {noremap = true})
 
 --Compile and run current C file
 vim.keymap.set('n', '<Leader>gppr', ':!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>', {noremap = true})
+
 ---------------------------------------------
 
 ------------------ PYTHON MAPPINGS --------------
+
 --Run current python file
 vim.keymap.set('n', '<Leader>py', ':!python3 %<CR>', {noremap = true})
 
 --Save file and run current python files
 vim.keymap.set('n', '<Leader>wpy', ':w <bar> :!python3 %<CR>', {noremap = true})
+
 ---------------------------------------------
 
 ------------------ GO MAPPINGS --------------
+
 --Run current go file
 vim.keymap.set('n', '<Leader>go', ':!go run %<CR>', {noremap = true})
 
