@@ -22,6 +22,7 @@ Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses,
 Plug 'windwp/nvim-autopairs'
 Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim'
+Plug 'nvim-treesitter/nvim-treesitter'
 
 -- html live server
 Plug 'turbio/bracey.vim'
@@ -66,7 +67,5 @@ Plug 'honza/vim-snippets'
 Plug 'preservim/nerdcommenter' -- comment lines commands
 
 Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
-
-Plug 'nvim-treesitter/nvim-treesitter'
 
 vim.call('plug#end')
