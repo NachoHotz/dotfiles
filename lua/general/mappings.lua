@@ -42,9 +42,6 @@ vim.keymap.set('n', '<Leader><S-Tab>', ':bw!<CR>', {noremap = true})
 --Go to NORMAL mode
 vim.keymap.set('i', 'ii', '<Esc>', {noremap = true})
 
---New tab
-vim.keymap.set('n', '<C-t>', ':tabnew split<CR>', {noremap = true})
-
 ------------ NODE JS/TS MAPPINGS ------------
 --Run current JS file
 vim.keymap.set('n', '<Leader>no', ':!node %<CR>', {noremap = true})
