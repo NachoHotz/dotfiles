@@ -64,8 +64,6 @@ Plug 'SirVer/ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'honza/vim-snippets'
 
-Plug 'ericbn/vim-relativize' -- relative numbers depending of mode
-
 Plug 'preservim/nerdcommenter' -- comment lines commands
 
 Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
