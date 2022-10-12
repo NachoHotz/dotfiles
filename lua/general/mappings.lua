@@ -53,8 +53,6 @@ vim.keymap.set('n', '<Leader>wno', ':w <bar> :!node %<CR>', {noremap = true})
 --Save the current file and run the typescript compiler
 vim.keymap.set('n', '<Leader>wts', ':w <bar> :!tsc<CR>', {noremap = true})
 
----------------------------------------------
-
 
 -------------------- C/C++ MAPPINGS --------------
 
@@ -76,7 +74,6 @@ vim.keymap.set('n', '<Leader>gpr', ':terminal ./%:r<CR>', {noremap = true})
 --Compile and run current C file
 vim.keymap.set('n', '<Leader>gppr', ':!g++ -Wall % -o %:r<CR> <bar> :terminal ./%:r<CR>', {noremap = true})
 
----------------------------------------------
 
 ------------------ PYTHON MAPPINGS --------------
 
@@ -86,7 +83,6 @@ vim.keymap.set('n', '<Leader>py', ':!python3 %<CR>', {noremap = true})
 --Save file and run current python files
 vim.keymap.set('n', '<Leader>wpy', ':w <bar> :!python3 %<CR>', {noremap = true})
 
----------------------------------------------
 
 ------------------ GO MAPPINGS --------------
 
@@ -95,6 +91,7 @@ vim.keymap.set('n', '<Leader>go', ':!go run %<CR>', {noremap = true})
 
 --Save file and run current go file
 vim.keymap.set('n', '<Leader>wgo', ':w <bar> :!go run %<CR>', {noremap = true})
+
 
 ------------------ RUST MAPPINGS --------------
 
@@ -116,6 +113,7 @@ vim.keymap.set('n', '<Leader>ch', ':!cargo check<CR>', {noremap = true})
 --Save file and check current rust file
 vim.keymap.set('n', '<Leader>wch', ':w <bar> :!cargo check<CR>', {noremap = true})
 
+
 ------------------ Telescope MAPPINGS --------------
 
 --Open Telescope
@@ -127,6 +125,7 @@ vim.keymap.set('n', '<Leader>fh', ':Telescope search_history<CR>', {noremap = tr
 vim.keymap.set('n', '<Leader>fm', ':Telescope marks<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>ft', ':Telescope tags<CR>', {noremap = true})
 vim.keymap.set('n', '<Leader>fa', ':Telescope live_grep<CR>', {noremap = true})
+
 
 ------------------ BUN MAPPINGS --------------
 
