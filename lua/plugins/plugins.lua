@@ -18,15 +18,13 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
-Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'jiangmiao/auto-pairs' -- auto close brackets
 Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim'
-Plug 'wuelnerdotexe/vim-astro'
-Plug ('evanleck/vim-svelte', {branch = 'main'})
 
+-- html live server
 Plug 'turbio/bracey.vim'
 
 --- LSP && Mason
@@ -46,9 +44,6 @@ Plug 'nvim-telescope/telescope.nvim'
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
 Plug 'mhinz/vim-signify' -- show git changes
-
--- autocompletion
-Plug 'rust-lang/rust.vim'
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'
