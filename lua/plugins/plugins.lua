@@ -44,6 +44,7 @@ Plug 'nvim-telescope/telescope.nvim'
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
 Plug 'lewis6991/gitsigns.nvim' -- git change signs in buffers
+Plug 'APZelos/blamer.nvim'
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'
