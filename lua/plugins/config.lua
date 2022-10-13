@@ -5,6 +5,11 @@ require("mason").setup()
 require("mason-lspconfig").setup()
 require('flutter-tools').setup{}
 require('nvim-autopairs').setup{}
+require('copilot').setup()
+
+require('copilot_cmp').setup{
+  method = "getCompletionsCycling",
+}
 
 require('bufferline').setup{
   options = {
@@ -30,10 +35,6 @@ require('plugins.config.lualine')
 require('plugins.config.lspconfig')
 require('plugins.config.cmp')
 require('plugins.config.treesitter')
-require('copilot').setup()
-require('copilot_cmp').setup{
-  method = "getCompletionsCycling",
-}
 
 vim.cmd [[silent! colorscheme material]]
 vim.cmd [[autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.vue EslintFixAll]]
