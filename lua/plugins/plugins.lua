@@ -13,11 +13,10 @@ local Plug = vim.fn['plug#']
 -- colorschemes
 Plug 'marko-cerovac/material.nvim'
 
--- lualine
+-- status and bufferline
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
-
 Plug 'akinsho/bufferline.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
 
 -- nvim tree
 Plug 'kyazdani42/nvim-tree.lua'
