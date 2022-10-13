@@ -23,7 +23,6 @@ set.nu=true -- Show line numbers
 set.cmdheight=1 -- Make the command-line shorter
 set.autochdir=true -- Change working directory with :lcd
 set.termguicolors=true -- True color support
-set.mouse=a -- Enable your mouse
 set.completeopt=menuone,noinsert,noselect,preview -- Completion options (for deoplete)
 set.clipboard = 'unnamedplus'
 
