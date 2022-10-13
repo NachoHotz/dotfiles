@@ -1,9 +1,3 @@
---Refresh init.vim
-vim.keymap.set('n', '<Leader>so', ':source ${HOME}/.config/nvim/init.lua<CR>', {noremap = true})
-
---Save file and refresh init.vim
-vim.keymap.set('n', '<Leader>wso', ':w <bar> :source $HOME/.config/nvim/init.lua<CR>', {noremap = true})
-
 --Save the current file
 vim.keymap.set('n', '<Leader>ww', ':w<CR>', {noremap = true})
 
