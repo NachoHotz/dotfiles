@@ -1,5 +1,12 @@
 --------------------------------Plugins--------------------------------------------
-vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
+local current_os = vim.loop.os_uname().sysname
+
+local pluginsLinuxPath = '~/.config/nvim/autoload/plugged'
+local pluginsWindowsPath = '~/AppData/Local/nvim/autoload/plugged'
+
+local pluginsFolder = current_os == 'Linux' and pluginsLinuxPath or pluginsWindowsPath
+
+vim.call('plug#begin', pluginsFolder)
 
 local Plug = vim.fn['plug#']
 
