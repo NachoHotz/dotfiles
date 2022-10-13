@@ -21,6 +21,11 @@ cmp.setup {
         end,
       },
 
+      window = {
+        completion = cmp.config.window.bordered(),
+        documentation = cmp.config.window.bordered()
+      },
+
       mapping = {
         ["<c-d>"] = cmp.mapping.scroll_docs(-4),
         ["<c-f>"] = cmp.mapping.scroll_docs(4),

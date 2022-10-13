@@ -1,7 +1,11 @@
 --Enable (broadcasting) snippet capability for completion
+local lsp = vim.lsp
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
+lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
 require('lspconfig').clangd.setup{}
 require('lspconfig').pyright.setup{}
