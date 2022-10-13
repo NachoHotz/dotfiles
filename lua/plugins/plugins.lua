@@ -13,7 +13,7 @@ local Plug = vim.fn['plug#']
 -- colorschemes
 Plug 'marko-cerovac/material.nvim'
 
--- status and bufferline
+-- status && bufferline
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'akinsho/bufferline.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -25,9 +25,9 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
-Plug 'windwp/nvim-autopairs'
+Plug 'windwp/nvim-autopairs' -- auto close parentheses and such
 Plug 'simrat39/rust-tools.nvim'
-Plug 'b0o/schemastore.nvim'
+Plug 'b0o/schemastore.nvim' -- json config schemas
 Plug 'nvim-treesitter/nvim-treesitter'
 
 -- html live server
