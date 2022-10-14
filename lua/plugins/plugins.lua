@@ -26,7 +26,6 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
-Plug 'ray-x/lsp_signature.nvim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'windwp/nvim-autopairs' -- auto close parentheses and such
@@ -64,6 +63,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'ray-x/lsp_signature.nvim' -- show function signature in popup window when typing
 
 -- snippets
 Plug 'SirVer/ultisnips'
