@@ -21,6 +21,7 @@ cmp.setup {
         end,
       },
 
+  -- Set rounded borders for floating completion windows
       window = {
         completion = cmp.config.window.bordered(),
         documentation = cmp.config.window.bordered()
