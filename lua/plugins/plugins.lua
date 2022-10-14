@@ -45,6 +45,7 @@ Plug 'williamboman/mason-lspconfig.nvim'
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug ('nvim-telescope/telescope-fzf-native.nvim', { ['do'] = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' })
 
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
