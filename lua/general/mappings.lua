@@ -14,9 +14,6 @@ vim.keymap.set('n', '<Leader>tl', ':ToggleTerm<CR>', opts)
 --Save the current file and open the terminal
 vim.keymap.set('n', '<Leader>wtl', ':w <bar> :ToggleTerm<CR>', opts)
 
---Npm commnands
-vim.keymap.set('n', '<Leader>ni', ':!npm init -y<CR>', opts)
-
 --Windows swap
 vim.keymap.set('n', '<Leader>j', ':wincmd j<CR>', opts)
 vim.keymap.set('n', '<Leader>k', ':wincmd k<CR>', opts)
