@@ -40,5 +40,6 @@ require('plugins.config.lspconfig')
 require('plugins.config.cmp')
 require('plugins.config.treesitter')
 
-vim.cmd [[silent! colorscheme material]]
-vim.cmd [[autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.vue EslintFixAll]]
+vim.cmd("colorscheme material")
+vim.cmd("silent! hi Normal guibg=NONE ctermbg=NONE")
+vim.cmd("autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.vue EslintFixAll")
