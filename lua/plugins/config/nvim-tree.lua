@@ -5,7 +5,9 @@ require('nvim-tree').setup{
       list = {
         { key = 'x', action = 'close_node' }
       }
-    }
+    },
+    side = "right",
+    width = 50
   },
   actions = {
     open_file = {
