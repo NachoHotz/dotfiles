@@ -21,7 +21,7 @@ cmp.setup {
         end,
       },
 
-  -- Set rounded borders for floating completion windows
+      -- Set rounded borders for floating completion windows
       window = {
         completion = cmp.config.window.bordered(),
         documentation = cmp.config.window.bordered()
@@ -64,12 +64,12 @@ cmp.setup {
       },
 
       sources = {
-        { name = "nvim_lua" , group_index = 2},
+        { name = "nvim_lua" , group_index = 2 },
         { name = "copilot", group_index = 2 },
-        { name = "nvim_lsp", group_index = 2},
+        { name = "nvim_lsp", group_index = 2 },
         { name = "path", group_index = 2 },
         { name = "ultisnips", group_index = 2 },
-        { name = "buffer" , keyword_length = 5}
+        { name = "buffer" , keyword_length = 5 }
       },
       experimental = {
         ghost_text = true

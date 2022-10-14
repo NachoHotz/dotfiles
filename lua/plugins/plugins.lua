@@ -13,6 +13,9 @@ local Plug = vim.fn['plug#']
 -- colorschemes
 Plug 'marko-cerovac/material.nvim'
 
+-- code action lightbulb
+Plug 'kosayoda/nvim-lightbulb'
+
 -- status && bufferline
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'akinsho/bufferline.nvim'
@@ -23,6 +26,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
+Plug 'ray-x/lsp_signature.nvim'
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'windwp/nvim-autopairs' -- auto close parentheses and such

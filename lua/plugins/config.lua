@@ -1,5 +1,7 @@
 ---------------------------------Sources-------------------------------
 
+require('lsp_signature').setup()
+require('nvim-lightbulb').setup({autocmd = {enabled = true}})
 require('gitsigns').setup()
 require("mason").setup()
 require("mason-lspconfig").setup()
