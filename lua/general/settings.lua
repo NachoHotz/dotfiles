@@ -18,7 +18,6 @@ set.hlsearch=false -- Don't highlight matches on previous search
 set.hidden=true -- Enable modified buffers in background
 set.showmode=false -- We don't need to see things like -- INSERT -- anymore
 set.wrap=true -- Enable line wrap
-set.nu=true -- Show line numbers
 set.cmdheight=1 -- Make the command-line shorter
 set.autochdir=true -- Change working directory with :lcd
 set.termguicolors=true -- True color support
