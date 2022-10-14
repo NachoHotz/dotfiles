@@ -29,7 +29,6 @@ require('bufferline').setup{
   }
 }
 
-require('plugins.config.blamer')
 require('plugins.config.gitfugitive')
 require('plugins.config.bracey')
 require('plugins.config.indent-blackline')

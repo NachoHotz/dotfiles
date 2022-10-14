@@ -53,7 +53,6 @@ Plug ('nvim-telescope/telescope-fzf-native.nvim', { ['do'] = 'cmake -S. -Bbuild 
 -- Git integration
 Plug 'tpope/vim-fugitive' -- git commands
 Plug 'lewis6991/gitsigns.nvim' -- git change signs in buffers
-Plug 'APZelos/blamer.nvim'
 
 -- copilot
 Plug 'zbirenbaum/copilot.lua'
