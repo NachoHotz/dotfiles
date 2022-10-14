@@ -39,10 +39,6 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 
--- Dart && Flutter
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'akinsho/flutter-tools.nvim'
-
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
