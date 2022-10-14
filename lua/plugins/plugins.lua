@@ -32,7 +32,6 @@ Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
 Plug 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
 Plug 'windwp/nvim-autopairs' -- auto close parentheses and such
-Plug 'simrat39/rust-tools.nvim'
 Plug 'b0o/schemastore.nvim' -- json config schemas
 Plug 'nvim-treesitter/nvim-treesitter'
 
