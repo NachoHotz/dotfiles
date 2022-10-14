@@ -2,7 +2,6 @@
 local set = vim.opt
 
 set.shiftwidth=2  -- Indent with 2 spaces
-set.expandtab=true -- Use spaces instead of tabs
 set.incsearch=true -- Incremental search (find as you type)
 set.swapfile=false -- No swap file
 set.backup=false  -- No backup file
