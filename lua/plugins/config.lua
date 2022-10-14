@@ -4,9 +4,6 @@ require('toggleterm').setup{
   close_on_exit = true
 }
 
-require('telescope').setup{}
-require('telescope').load_extension('fzf')
-
 require('lsp_signature').setup()
 require('nvim-lightbulb').setup({autocmd = {enabled = true}})
 require('gitsigns').setup()
