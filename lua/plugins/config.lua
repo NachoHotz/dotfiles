@@ -1,5 +1,9 @@
 ---------------------------------Sources-------------------------------
 
+require('toggleterm').setup{
+  close_on_exit = true
+}
+
 require('telescope').setup{}
 require('telescope').load_extension('fzf')
 

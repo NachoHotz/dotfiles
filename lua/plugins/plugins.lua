@@ -24,6 +24,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 -- nvim tree
 Plug 'kyazdani42/nvim-tree.lua'
 
+-- terminal
+Plug 'akinsho/nvim-toggleterm.lua'
+
 -- syntax
 Plug 'lukas-reineke/indent-blankline.nvim' -- intentation
 Plug 'ntpeters/vim-better-whitespace' -- see whitespaces in red
