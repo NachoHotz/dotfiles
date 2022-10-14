@@ -8,6 +8,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
+require('lspconfig').sumneko_lua.setup{}
 require('lspconfig').tsserver.setup{}
 require('lspconfig').dockerls.setup{}
 require('lspconfig').gopls.setup{}
