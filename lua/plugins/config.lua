@@ -45,6 +45,7 @@ require('plugins.config.lspconfig')
 require('plugins.config.cmp')
 require('plugins.config.treesitter')
 require('plugins.config.toggleterm_config')
+require('plugins.config.better-whitespace')
 
 vim.cmd("colorscheme material")
 vim.cmd("silent! hi Normal guibg=NONE ctermbg=NONE")
