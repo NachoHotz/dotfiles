@@ -4,7 +4,7 @@ local opts = { noremap = true }
 vim.keymap.set('n', '<Leader>so', '<Cmd>so %<CR>', opts)
 
 -- Sabe and source current file
-vim.keymap.set('n', '<Leader>wso', '<Cmd>w <bar> <Cmd>so %<CR>', opts)
+vim.keymap.set('n', '<Leader>wso', ':w <bar> :so %<CR>', opts)
 
 --Save the current file
 vim.keymap.set('n', '<Leader>ww', '<Cmd>w<CR>', opts)
