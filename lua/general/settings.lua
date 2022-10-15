@@ -16,7 +16,6 @@ set.wrap = true -- Enable line wrap
 set.cmdheight = 1 -- Make the command-line shorter
 set.autochdir = true -- Change working directory with :lcd
 set.termguicolors = true -- True color support
-set.completeopt = menuone, noinsert, noselect, preview -- Completion options (for deoplete)
 set.clipboard = 'unnamedplus'
 
 vim.g.mapleader = ' '
