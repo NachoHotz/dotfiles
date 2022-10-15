@@ -70,6 +70,7 @@ Plug 'ray-x/lsp_signature.nvim' -- show function signature in popup window when 
 Plug 'SirVer/ultisnips'
 Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'mlaursen/vim-react-snippets'
 
 Plug 'preservim/nerdcommenter' -- comment lines commands
 
