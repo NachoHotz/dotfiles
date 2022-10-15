@@ -7,21 +7,21 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
-require('lspconfig').sumneko_lua.setup{}
-require('lspconfig').tsserver.setup{}
-require('lspconfig').dockerls.setup{}
-require('lspconfig').gopls.setup{}
-require('lspconfig').prismals.setup{}
-require('lspconfig').tailwindcss.setup{}
-require('lspconfig').yamlls.setup{}
-require('lspconfig').cssmodules_ls.setup{}
-require('lspconfig').eslint.setup{}
+require('lspconfig').sumneko_lua.setup {}
+require('lspconfig').tsserver.setup {}
+require('lspconfig').dockerls.setup {}
+require('lspconfig').gopls.setup {}
+require('lspconfig').prismals.setup {}
+require('lspconfig').tailwindcss.setup {}
+require('lspconfig').yamlls.setup {}
+require('lspconfig').cssmodules_ls.setup {}
+require('lspconfig').eslint.setup {}
 
-require('lspconfig').html.setup{
+require('lspconfig').html.setup {
   capabilities = capabilities,
 }
 
-require('lspconfig').emmet_ls.setup{
+require('lspconfig').emmet_ls.setup {
   capabilities = capabilities,
   filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
   init_options = {
@@ -38,7 +38,7 @@ require('lspconfig').cssls.setup {
   capabilities = capabilities,
 }
 
-require('lspconfig').jsonls.setup{
+require('lspconfig').jsonls.setup {
   capabilities = capabilities,
   settings = {
     json = {

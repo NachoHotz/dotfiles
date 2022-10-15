@@ -1,22 +1,27 @@
 ---------------------------------Sources-------------------------------
 
-require('toggleterm').setup{
+require('toggleterm').setup {
   close_on_exit = true
 }
 
+require('nvim-lightbulb').setup({
+  autocmd = {
+    enabled = true
+  }
+})
+
 require('lsp_signature').setup()
-require('nvim-lightbulb').setup({autocmd = {enabled = true}})
 require('gitsigns').setup()
 require("mason").setup()
 require("mason-lspconfig").setup()
-require('nvim-autopairs').setup{}
+require('nvim-autopairs').setup {}
 require('copilot').setup()
 
-require('copilot_cmp').setup{
+require('copilot_cmp').setup {
   method = "getCompletionsCycling",
 }
 
-require('bufferline').setup{
+require('bufferline').setup {
   options = {
     diagnostics = "nvim_lsp",
     diagnostics_indicator = function(count, level, diagnostics_dict, context)

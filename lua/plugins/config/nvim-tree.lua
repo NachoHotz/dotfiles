@@ -1,5 +1,5 @@
 -------------------------------Mappings-------------------------------
-require('nvim-tree').setup{
+require('nvim-tree').setup {
   view = {
     mappings = {
       list = {
@@ -20,5 +20,5 @@ require('nvim-tree').setup{
   }
 }
 
-vim.keymap.set('n', '<Leader>nt', ':NvimTreeToggle<CR>', {noremap = true })
-vim.keymap.set('n', '<Leader>nf', ':NvimTreeFindFile<CR>', {noremap = true })
+vim.keymap.set('n', '<Leader>nt', ':NvimTreeToggle<CR>', { noremap = true })
+vim.keymap.set('n', '<Leader>nf', ':NvimTreeFindFile<CR>', { noremap = true })

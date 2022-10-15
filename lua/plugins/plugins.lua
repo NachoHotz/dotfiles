@@ -74,6 +74,6 @@ Plug 'mlaursen/vim-react-snippets'
 
 Plug 'preservim/nerdcommenter' -- comment lines commands
 
-Plug ('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
+Plug('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
 
 vim.call('plug#end')
