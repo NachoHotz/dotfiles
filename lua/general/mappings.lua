@@ -111,12 +111,3 @@ vim.keymap.set('n', '<Leader>ch', '<Cmd>!cargo check<CR>', opts)
 
 --Save file and check current rust file
 vim.keymap.set('n', '<Leader>wch', '<Cmd>w <bar> <Cmd>!cargo check<CR>', opts)
-
-
------------------- BUN MAPPINGS --------------
-
---Run current JS/TS files
-vim.keymap.set('n', '<Leader>br', '<Cmd>!bun run %<CR>', opts)
-
---Save file and run current JS/TS files
-vim.keymap.set('n', '<Leader>wbr', '<Cmd>w <bar> <Cmd>!bun run %<CR>', opts)
