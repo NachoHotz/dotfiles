@@ -1,0 +1,13 @@
+--Open Telescope
+local opts = { noremap = true }
+
+vim.keymap.set('n', '<Leader>ff', '<Cmd>Telescope find_files<CR>', opts)
+vim.keymap.set('n', '<Leader>fcf', '<Cmd>Telescope current_buffer_fuzzy_find<CR>', opts)
+vim.keymap.set('n', '<Leader>fg', '<Cmd>Telescope git_files<CR>', opts)
+vim.keymap.set('n', '<Leader>fb', '<Cmd>Telescope buffers<CR>', opts)
+vim.keymap.set('n', '<Leader>fh', '<Cmd>Telescope search_history<CR>', opts)
+vim.keymap.set('n', '<Leader>fm', '<Cmd>Telescope marks<CR>', opts)
+vim.keymap.set('n', '<Leader>ft', '<Cmd>Telescope tags<CR>', opts)
+vim.keymap.set('n', '<Leader>fa', '<Cmd>Telescope live_grep<CR>', opts)
+vim.keymap.set('n', '<leader>dl', '<Cmd>Telescope diagnostics<CR>') -- List all diagnostics
+vim.keymap.set('n', '<leader>tgd', '<Cmd>Telescope git_status<CR>')

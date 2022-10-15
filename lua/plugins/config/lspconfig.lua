@@ -60,4 +60,3 @@ vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>') -- Format
 vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>') -- Rename variable
 vim.keymap.set('n', '<leader>dp', 'vim.diagnostic.goto_prev<CR>') -- Go to previous diagnostic
 vim.keymap.set('n', '<leader>dn', 'vim.diagnostic.goto_next<CR>') -- Go to next diagnostic
-vim.keymap.set('n', '<leader>dl', '<Cmd>Telescope diagnostics<CR>') -- List all diagnostics
