@@ -15,12 +15,6 @@ require('gitsigns').setup({
   numhl = true
 })
 
-require('lsp_signature').setup()
-require("mason").setup()
-require("mason-lspconfig").setup()
-require('nvim-autopairs').setup {}
-require('copilot').setup()
-
 require('copilot_cmp').setup {
   method = "getCompletionsCycling",
 }
@@ -34,6 +28,12 @@ require('bufferline').setup {
     end
   }
 }
+
+require('lsp_signature').setup()
+require("mason").setup()
+require("mason-lspconfig").setup()
+require('nvim-autopairs').setup {}
+require('copilot').setup()
 
 require('plugins.config.gitfugitive')
 require('plugins.config.bracey')
