@@ -1,3 +1,4 @@
+---@diagnostic disable: unused-local
 ---------------------------------Sources-------------------------------
 
 require('toggleterm').setup {
@@ -10,8 +11,11 @@ require('nvim-lightbulb').setup({
   }
 })
 
+require('gitsigns').setup({
+  numhl = true
+})
+
 require('lsp_signature').setup()
-require('gitsigns').setup()
 require("mason").setup()
 require("mason-lspconfig").setup()
 require('nvim-autopairs').setup {}
