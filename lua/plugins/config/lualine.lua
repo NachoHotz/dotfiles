@@ -3,6 +3,7 @@ require('lualine').setup({
     theme = 'auto',
   },
   sections = {
+    lualine_y = {},
     lualine_z = { 'location', 'os.date("%H:%M", os.time())' }
   }
 })
