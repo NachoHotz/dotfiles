@@ -34,6 +34,7 @@ require("mason").setup()
 require("mason-lspconfig").setup()
 require('nvim-autopairs').setup {}
 require('copilot').setup()
+require('Comment').setup()
 
 require('plugins.config.gitfugitive')
 require('plugins.config.bracey')

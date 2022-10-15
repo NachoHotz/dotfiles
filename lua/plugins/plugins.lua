@@ -72,7 +72,8 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'mlaursen/vim-react-snippets'
 
-Plug 'preservim/nerdcommenter' -- comment lines commands
+--Plug 'preservim/nerdcommenter' -- comment lines commands
+Plug 'numToStr/Comment.nvim'
 
 Plug('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
 
