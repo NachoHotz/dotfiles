@@ -54,7 +54,6 @@ vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>') -- Jump to definition
 vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>') -- Show type definition
 vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump to implementation
-vim.keymap.set('n', 'gr', '<Cmd>lua vim.lsp.buf.references()<CR>') -- Jump to references
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') -- Open code actions
 vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>') -- Format code in current buffer
 vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>') -- Rename variable
