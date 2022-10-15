@@ -1,4 +1,3 @@
---Enable (broadcasting) snippet capability for completion
 local lsp = vim.lsp
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
