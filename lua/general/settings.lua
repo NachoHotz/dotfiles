@@ -5,6 +5,7 @@ set.shiftwidth = 2 -- Indent with 2 spaces
 set.incsearch = true -- Incremental search (find as you type)
 set.expandtab = true -- Use spaces over tabs
 set.swapfile = false -- No swap file
+set.mouse='' -- ignore mouse
 set.number = true -- Show line numbers
 set.smartindent = true -- Smart auto-indenting
 set.relativenumber = true -- Relative line numbers
