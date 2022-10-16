@@ -1,6 +1,6 @@
 -------------------------------Mappings-------------------------------
 local opts = {
-    noremap = true
+  noremap = true
 }
 
 vim.keymap.set('n', '<Leader>gi', ':Git init<CR>', opts)

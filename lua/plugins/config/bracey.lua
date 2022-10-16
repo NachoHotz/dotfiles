@@ -1,5 +1,5 @@
 local opts = {
-    noremap = true
+  noremap = true
 }
 
 vim.keymap.set('n', '<Leader>br', ':Bracey<CR>', opts)

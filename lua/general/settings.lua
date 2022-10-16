@@ -1,7 +1,7 @@
 ---------------------------------vim config----------------------------
 local set = vim.opt
 
-set.shiftwidth = 4 -- Indent with 2 spaces
+set.shiftwidth = 2 -- Indent with 2 spaces
 set.incsearch = true -- Incremental search (find as you type)
 set.expandtab = true -- Use spaces over tabs
 set.swapfile = false -- No swap file
