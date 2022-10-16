@@ -2,31 +2,31 @@
 ---------------------------------Sources-------------------------------
 
 require('toggleterm').setup {
-  close_on_exit = true
+    close_on_exit = true
 }
 
 require('nvim-lightbulb').setup({
-  autocmd = {
-    enabled = true
-  }
+    autocmd = {
+        enabled = true
+    }
 })
 
 require('gitsigns').setup({
-  numhl = true
+    numhl = true
 })
 
 require('copilot_cmp').setup {
-  method = "getCompletionsCycling",
+    method = "getCompletionsCycling",
 }
 
 require('bufferline').setup {
-  options = {
-    diagnostics = "nvim_lsp",
-    diagnostics_indicator = function(count, level, diagnostics_dict, context)
-      local icon = level:match("error") and " " or " "
-      return " " .. icon .. count
-    end
-  }
+    options = {
+        diagnostics = "nvim_lsp",
+        diagnostics_indicator = function(count, level, diagnostics_dict, context)
+            local icon = level:match("error") and " " or " "
+            return " " .. icon .. count
+        end
+    }
 }
 
 require('lsp_signature').setup()

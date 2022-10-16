@@ -1,7 +1,7 @@
 vim.g.typescript_indent_disable = 1
 
 local opts = {
-  noremap = true
+    noremap = true
 }
 
 -------------------------------Mappings-------------------------------
