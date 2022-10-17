@@ -76,6 +76,6 @@ Plug 'numToStr/Comment.nvim'
 
 Plug('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
 
-Plug 'j-hui/fidget.nvim'
+Plug 'j-hui/fidget.nvim' -- show LSP clients progress
 
 vim.call('plug#end')
