@@ -29,6 +29,7 @@ require('bufferline').setup {
   }
 }
 
+require('fidget').setup {}
 require('colorizer').setup { '*' }
 require('lsp_signature').setup()
 require("mason").setup()

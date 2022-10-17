@@ -32,6 +32,7 @@ Plug 'windwp/nvim-ts-autotag' -- auto close html tags in tsx files
 Plug 'b0o/schemastore.nvim' -- json config schemas
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'norcalli/nvim-colorizer.lua' -- css color properties highlight
+Plug 'folke/lsp-colors.nvim' -- Add some LSP highlight groups if missing from a colorscheme
 
 -- html live server
 Plug 'turbio/bracey.vim'
@@ -41,6 +42,7 @@ Plug 'onsails/lspkind.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'stevearc/dressing.nvim' -- nvim input ui
 
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
@@ -73,5 +75,7 @@ Plug 'mlaursen/vim-react-snippets'
 Plug 'numToStr/Comment.nvim'
 
 Plug('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
+
+Plug 'j-hui/fidget.nvim'
 
 vim.call('plug#end')
