@@ -17,6 +17,15 @@ configs.setup {
     'javascript',
     'css',
     'c',
-    'cpp'
+    'cpp',
+    'go',
+    'dockerfile',
+    'yaml',
+    'json',
+    'lua',
+    'markdown',
+    'gitignore',
+    'sql',
+    'prisma'
   }
 }
