@@ -35,6 +35,7 @@ Plug 'windwp/nvim-autopairs' -- auto close parentheses and such
 Plug 'windwp/nvim-ts-autotag' -- auto close parentheses and such
 Plug 'b0o/schemastore.nvim' -- json config schemas
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'norcalli/nvim-colorizer.lua'
 
 -- html live server
 Plug 'turbio/bracey.vim'
