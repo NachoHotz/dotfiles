@@ -10,5 +10,14 @@ configs.setup {
   rainbow = {
     enable = true,
     extended_mode = true,
+  },
+  ensure_installed = {
+    'typescript',
+    'tsx',
+    'javascript',
+    'css',
+    'html',
+    'c',
+    'cpp'
   }
 }

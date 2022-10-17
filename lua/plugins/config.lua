@@ -54,5 +54,7 @@ require('plugins.config.better-whitespace')
 require('plugins.config.telescope-config')
 
 vim.cmd("colorscheme material")
+vim.cmd("set completeopt=menuone,noinsert,noselect")
 vim.cmd("silent! hi Normal guibg=NONE ctermbg=NONE")
 vim.cmd("autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.vue EslintFixAll")
+vim.cmd("highlight! default link CmpItemKind CmpItemMenuDefault")

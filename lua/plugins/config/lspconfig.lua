@@ -8,7 +8,6 @@ lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border =
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
 require('lspconfig').clangd.setup {}
-require('lspconfig').sumneko_lua.setup {}
 require('lspconfig').tsserver.setup {}
 require('lspconfig').dockerls.setup {}
 require('lspconfig').gopls.setup {}
@@ -17,6 +16,19 @@ require('lspconfig').tailwindcss.setup {}
 require('lspconfig').yamlls.setup {}
 require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
+
+require('lspconfig').sumneko_lua.setup {
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { 'vim' }
+      },
+      workspace = {
+        library = vim.api.nvim_get_runtime_file('', true)
+      }
+    }
+  }
+}
 
 require('lspconfig').html.setup {
   capabilities = capabilities,

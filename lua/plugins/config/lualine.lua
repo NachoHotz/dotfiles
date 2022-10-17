@@ -3,11 +3,6 @@ require('lualine').setup({
     theme = 'auto',
   },
   sections = {
-    lualine_c = { {
-      'filename',
-      file_status = true,
-      path        = 0
-    } },
     lualine_y = {},
     lualine_z = { 'location', 'os.date("%H:%M", os.time())' }
   }
