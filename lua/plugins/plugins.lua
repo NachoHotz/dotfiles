@@ -13,9 +13,6 @@ return require('packer').startup(function(use)
   -- nvim tree
   use 'kyazdani42/nvim-tree.lua'
 
-  -- terminal
-  use 'akinsho/nvim-toggleterm.lua'
-
   -- syntax
   use 'lukas-reineke/indent-blankline.nvim' -- intentation
   use 'ntpeters/vim-better-whitespace' -- see whitespaces in red
@@ -65,7 +62,7 @@ return require('packer').startup(function(use)
   use 'honza/vim-snippets'
   use 'mlaursen/vim-react-snippets'
 
-  use 'numToStr/Comment.nvim'
+  use 'numToStr/Comment.nvim' -- comment mappings
 
   use 'gelguy/wilder.nvim' -- wild menu
 

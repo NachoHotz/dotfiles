@@ -1,10 +1,6 @@
 ---@diagnostic disable: unused-local
 ---------------------------------Sources-------------------------------
 
-require('toggleterm').setup {
-  close_on_exit = true
-}
-
 require('gitsigns').setup({
   numhl = true
 })
