@@ -23,7 +23,6 @@ configs.setup {
     'yaml',
     'json',
     'lua',
-    'markdown',
     'gitignore',
     'sql',
     'prisma'
