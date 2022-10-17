@@ -33,6 +33,7 @@ require('lsp_signature').setup()
 require("mason").setup()
 require("mason-lspconfig").setup()
 require('nvim-autopairs').setup {}
+require('nvim-ts-autotag').setup {}
 require('copilot').setup()
 require('Comment').setup()
 
