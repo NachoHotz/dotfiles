@@ -31,7 +31,7 @@ Plug 'windwp/nvim-autopairs' -- auto close parentheses and such
 Plug 'windwp/nvim-ts-autotag' -- auto close html tags in tsx files
 Plug 'b0o/schemastore.nvim' -- json config schemas
 Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'norcalli/nvim-colorizer.lua'
+Plug 'norcalli/nvim-colorizer.lua' -- css color properties highlight
 
 -- html live server
 Plug 'turbio/bracey.vim'
@@ -70,7 +70,6 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'mlaursen/vim-react-snippets'
 
---Plug 'preservim/nerdcommenter' -- comment lines commands
 Plug 'numToStr/Comment.nvim'
 
 Plug('gelguy/wilder.nvim', { ['do'] = vim.fn['UpdateRemotePlugins'] }) -- wild menu
