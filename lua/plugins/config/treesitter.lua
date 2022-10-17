@@ -16,7 +16,6 @@ configs.setup {
     'tsx',
     'javascript',
     'css',
-    'html',
     'c',
     'cpp'
   }
