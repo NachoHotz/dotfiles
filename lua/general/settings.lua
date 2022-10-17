@@ -1,12 +1,9 @@
 ---------------------------------vim config----------------------------
 local set = vim.opt
 
-local current_os = vim.loop.os_uname().sysname
+local defaults = require "utils.get_defaults"
 
-local linux_shell = 'zsh'
-local windows_shell = 'powershell'
-
-local default_shell = current_os == 'Linux' and linux_shell or windows_shell
+local shell = defaults.get_shell()
 
 set.shiftwidth     = 2 -- Indent with 2 spaces
 set.incsearch      = true -- Incremental search (find as you type)
@@ -25,7 +22,7 @@ set.wrap           = true -- Enable line wrap
 set.cmdheight      = 1 -- Make the command-line shorter
 set.autochdir      = true -- Change working directory with :lcd
 set.termguicolors  = true -- True color support
-set.shell          = default_shell
+set.shell          = shell
 set.clipboard      = 'unnamedplus'
 
 vim.g.mapleader = ' '
