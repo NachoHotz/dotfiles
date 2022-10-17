@@ -5,9 +5,6 @@ return require('packer').startup(function(use)
   -- colorschemes
   use 'marko-cerovac/material.nvim'
 
-  -- code action lightbulb
-  use 'kosayoda/nvim-lightbulb'
-
   -- status && bufferline
   use 'nvim-lualine/lualine.nvim'
   use 'akinsho/bufferline.nvim'

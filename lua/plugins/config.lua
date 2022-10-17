@@ -5,12 +5,6 @@ require('toggleterm').setup {
   close_on_exit = true
 }
 
-require('nvim-lightbulb').setup({
-  autocmd = {
-    enabled = true
-  }
-})
-
 require('gitsigns').setup({
   numhl = true
 })
