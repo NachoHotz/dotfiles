@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
 
   -- Git integration
   use 'tpope/vim-fugitive' -- git commands
-  use 'lewis6991/gitsigns.nvim' -- git change signs in buffers
+  use 'lewis6991/gitsigns.nvim' -- git change signs in buffers column
 
   -- copilot
   use 'zbirenbaum/copilot.lua'
@@ -48,12 +48,12 @@ return require('packer').startup(function(use)
   use 'zbirenbaum/copilot-cmp'
 
   -- cmp
+  use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-nvim-lua'
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-cmdline'
-  use 'hrsh7th/nvim-cmp'
   use 'ray-x/lsp_signature.nvim' -- show function signature in popup window when typing
 
   -- snippets
