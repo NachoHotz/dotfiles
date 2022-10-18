@@ -62,6 +62,7 @@ require('lspconfig').jsonls.setup {
 }
 
 ------------------------ MAPPINGS ------------------------
+
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>') -- Jump to definition

@@ -1,3 +1,4 @@
+---@diagnostic disable: unused-local
 require('bufferline').setup {
   options = {
     diagnostics = "nvim_lsp",
