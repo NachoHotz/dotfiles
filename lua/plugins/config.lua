@@ -1,24 +1,6 @@
 ---@diagnostic disable: unused-local
 ---------------------------------Sources-------------------------------
 
-require('gitsigns').setup({
-  numhl = true
-})
-
-require('copilot_cmp').setup {
-  method = "getCompletionsCycling",
-}
-
-require('bufferline').setup {
-  options = {
-    diagnostics = "nvim_lsp",
-    diagnostics_indicator = function(count, level, diagnostics_dict, context)
-      local icon = level:match("error") and " " or " "
-      return " " .. icon .. count
-    end
-  }
-}
-
 require('fidget').setup {}
 require('colorizer').setup { '*' }
 require('lsp_signature').setup()
@@ -29,6 +11,9 @@ require('nvim-ts-autotag').setup {}
 require('copilot').setup()
 require('Comment').setup()
 
+require('plugins.config.bufferline')
+require('plugins.config.gitsigns')
+require('plugins.config.copilot_cmp')
 require('plugins.config.gitfugitive')
 require('plugins.config.bracey')
 require('plugins.config.indent-blackline')
