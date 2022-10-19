@@ -5,7 +5,8 @@ require('material').setup {
     "gitsigns",
     "nvim-cmp",
     "nvim-tree",
-    "telescope"
+    "telescope",
+    "indent-blankline",
   },
   lualine_style = 'stealth'
 }

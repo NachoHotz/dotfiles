@@ -32,6 +32,7 @@ require('plugins.setup.treesitter')
 require('plugins.setup.toggleterm_config')
 require('plugins.setup.better-whitespace')
 require('plugins.setup.telescope-config')
+require('plugins.setup.indent-blackline')
 
 vim.cmd('colorscheme material')
 vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
