@@ -72,5 +72,3 @@ vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump t
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') -- Open code actions
 vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>') -- Format code in current buffer
 vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>') -- Rename variable
-vim.keymap.set('n', '<leader>dp', 'vim.diagnostic.goto_prev<CR>') -- Go to previous diagnostic
-vim.keymap.set('n', '<leader>dn', 'vim.diagnostic.goto_next<CR>') -- Go to next diagnostic
