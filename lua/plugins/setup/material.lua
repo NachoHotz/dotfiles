@@ -8,5 +8,5 @@ require('material').setup {
     "telescope",
     "indent-blankline",
   },
-  lualine_style = 'stealth'
+  lualine_style = 'default'
 }
