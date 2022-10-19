@@ -24,5 +24,10 @@ set.autochdir      = true -- Change working directory with :lcd
 set.termguicolors  = true -- True color support
 set.shell          = shell
 set.clipboard      = 'unnamedplus'
+set.completeopt = 'menuone,noinsert,noselect'
 
 vim.g.mapleader = ' '
+
+vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
+vim.cmd("autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.vue EslintFixAll")
+vim.cmd('highlight! default link CmpItemKind CmpItemMenuDefault')
