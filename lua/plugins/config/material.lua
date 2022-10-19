@@ -6,5 +6,6 @@ require('material').setup {
     "nvim-cmp",
     "nvim-tree",
     "telescope"
-  }
+  },
+  lualine_style = 'stealth'
 }
