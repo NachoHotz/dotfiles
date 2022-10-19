@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
   use 'kyazdani42/nvim-tree.lua'
 
   -- syntax
-  use 'lukas-reineke/indent-blankline.nvim' -- intentation
+  -- use 'lukas-reineke/indent-blankline.nvim' -- intentation
   use 'ntpeters/vim-better-whitespace' -- see whitespaces in red
   use 'tpope/vim-surround' -- commands to surround text with quotes, parentheses, etc
   use 'windwp/nvim-autopairs' -- auto close parentheses and such
