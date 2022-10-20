@@ -1,0 +1,14 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "tsx",
+    "jsx",
+    "python",
+    "py",
+    "c",
+    "html",
+    "lua"
+  ],
+  "Lua.telemetry.enable": false
+}
