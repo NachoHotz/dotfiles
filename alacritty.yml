@@ -1,0 +1,78 @@
+window:
+  dimensions:
+    columns: 120
+    lines: 30
+  position:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+
+  startup_mode: Windowed
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: 'Cousine Nerd Font'
+    style: Regular
+  bold:
+    family: 'Cousine Nerd Font'
+    style: Bold
+  italic:
+    family: 'Cousine Nerd Font'
+    style: Italic
+  bold_italic:
+    family: 'Cousine Nerd Font'
+    style: Bold Italic
+  size: 11.0
+
+colors:
+  primary:
+    background: '0x0F111A'
+    foreground: '0xC3C7D1'
+
+  cursor:
+    text:   '0x1E282C'
+    cursor: '0x657B83'
+
+  normal:
+    black:   '0x073641'
+    red:     '0xEB606B'
+    green:   '0xC3E88D'
+    yellow:  '0xF7EB95'
+    blue:    '0x80CBC3'
+    magenta: '0xFF2490'
+    cyan:    '0xAEDDFF'
+    white:   '0xFFFFFF'
+
+  bright:
+    black:   '0x002B36'
+    red:     '0xEB606B'
+    green:   '0xC3E88D'
+    yellow:  '0xF7EB95'
+    blue:    '0x7DC6BF'
+    magenta: '0x6C71C3'
+    cyan:    '0x34434D'
+    white:   '0xFFFFFF'
+
+shell:
+  program: /usr/bin/zsh
+
+live_config_reload: true
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+key_bindings:
+    - { key: F11, action: ToggleFullscreen }
+    - { key: V,        mods: Command,       action: Paste                        }
+    - { key: C,        mods: Command,       action: Copy                         }
+    - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+
+mouse:
+  hide_when_typing: true
