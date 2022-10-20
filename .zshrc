@@ -131,13 +131,13 @@ alias q="exit"
 alias v=$EDITOR
 alias lg="lazygit"
 alias vconf="$EDITOR ~/.config/nvim/"
-alias nvm-lts="nvm use 16.17.0"
+alias nvm-lts="nvm use 16.18.0"
 alias shconf="$EDITOR ~/.zshrc"
 alias shsource="source ~/.zshrc"
 alias air="~/go/bin/air"
 alias sysup="sudo dnf check-update"
 alias sysug="sudo dnf upgrade -y"
-alias sysi="sudo dnf install "
+alias sysi="sudo dnf install"
 
 # ------- Node -------
 
@@ -145,6 +145,15 @@ alias ni="npm init -y"
 alias nis="npm install"
 alias nisd="npm install --save-dev"
 alias nisg="npm install -g"
+
+# -------------------
+
+# ------- Yarn -------
+
+alias y="yarn"
+alias yi="yarn install"
+alias ya="yarn add"
+alias yad="yarn add --save-dev"
 
 # -------------------
 
@@ -194,6 +203,7 @@ alias gds="git diff --staged"
 alias gph="git push"
 alias gpu="git push -u origin"
 alias gpd="git push origin --delete"
+alias gps="git push --set-upstream origin"
 alias gpl="git pull"
 alias gs="git stash"
 alias gsp="git stash pop"
@@ -234,10 +244,6 @@ alias db-start-redis="cd ~ && cd ./databases/redis && sudo docker compose up -d 
 alias db-stop-redis="cd ~ && cd ./databases/redis && sudo docker compose down && cd"
 
 # ------------------------
-
-# ------- Plex --------
-alias plex-start="cd ~ && cd ./plex-docker && sudo docker compose up -d && cd"
-alias plex-stop="cd ~ && cd ./plex-docker && sudo docker compose down && cd"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
