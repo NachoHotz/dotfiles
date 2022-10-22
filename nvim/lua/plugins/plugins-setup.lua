@@ -24,9 +24,6 @@ return require('packer').startup(function(use)
   use 'norcalli/nvim-colorizer.lua' -- css color properties highlight
   use 'simrat39/rust-tools.nvim'
 
-  -- html live server
-  use 'turbio/bracey.vim'
-
   --- LSP && Mason
   use 'onsails/lspkind.nvim'
   use 'neovim/nvim-lspconfig'
