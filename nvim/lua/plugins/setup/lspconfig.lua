@@ -18,6 +18,14 @@ require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
 require('lspconfig').pyright.setup {}
 
+require('lspconfig').html.setup {
+  capabilities = capabilities,
+}
+
+require('lspconfig').cssls.setup {
+  capabilities = capabilities,
+}
+
 require('lspconfig').sumneko_lua.setup {
   settings = {
     Lua = {
@@ -31,10 +39,6 @@ require('lspconfig').sumneko_lua.setup {
   }
 }
 
-require('lspconfig').html.setup {
-  capabilities = capabilities,
-}
-
 require('lspconfig').emmet_ls.setup {
   capabilities = capabilities,
   filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
@@ -46,10 +50,6 @@ require('lspconfig').emmet_ls.setup {
       },
     },
   }
-}
-
-require('lspconfig').cssls.setup {
-  capabilities = capabilities,
 }
 
 require('lspconfig').jsonls.setup {
