@@ -27,6 +27,7 @@ configs.setup {
     'prisma',
     'markdown',
     'sql',
-    'go'
+    'go',
+    'lua'
   }
 }
