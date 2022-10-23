@@ -11,5 +11,22 @@ configs.setup {
     enable = true,
     extended_mode = true,
   },
-  ensure_installed = 'all'
+  ensure_installed = {
+    'typescript',
+    'tsx',
+    'javascript',
+    'json',
+    'go',
+    'rust',
+    'yaml',
+    'toml',
+    'dockerfile',
+    'c',
+    'cpp',
+    'python',
+    'prisma',
+    'markdown',
+    'sql',
+    'go'
+  }
 }
