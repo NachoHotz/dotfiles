@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
-  use 'stevearc/dressing.nvim' -- nvim input ui
+  use 'stevearc/dressing.nvim' -- nvim input pop up ui
 
   -- Telescope
   use 'nvim-lua/plenary.nvim'
