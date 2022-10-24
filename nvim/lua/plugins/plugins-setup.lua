@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'norcalli/nvim-colorizer.lua' -- css color properties highlight
   use 'simrat39/rust-tools.nvim'
+  use 'folke/lsp-colors.nvim' -- Add some LSP highlight groups if missing from a colorscheme
 
   --- LSP && Mason
   use 'onsails/lspkind.nvim'
