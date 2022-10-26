@@ -44,9 +44,6 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive' -- git commands
   use 'lewis6991/gitsigns.nvim' -- git change signs in buffers column
 
-  -- Notifications
-  use 'rcarriga/nvim-notify'
-
   -- copilot
   use 'zbirenbaum/copilot.lua'
   use 'github/copilot.vim'
