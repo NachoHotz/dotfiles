@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
   -- Git integration
   use 'tpope/vim-fugitive' -- git commands
   use 'lewis6991/gitsigns.nvim' -- git change signs in buffers column
+  use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
 
   -- copilot
   use 'zbirenbaum/copilot.lua'

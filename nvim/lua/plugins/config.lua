@@ -13,6 +13,7 @@ require('nvim-ts-autotag').setup {}
 require('copilot').setup()
 require('Comment').setup()
 require('rust-tools').setup()
+require('neogit').setup {}
 
 require('plugins.setup.bufferline')
 require('plugins.setup.gitsigns')
