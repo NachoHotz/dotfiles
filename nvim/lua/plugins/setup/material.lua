@@ -12,21 +12,11 @@ require('material').setup {
   },
 
   plugins = {
-    -- "dap",
-    -- "dashboard",
     "gitsigns",
-    -- "hop",
     "indent-blankline",
-    -- "lspsaga",
-    -- "mini",
-    -- "neogit",
     "nvim-cmp",
-    -- "nvim-navic",
     "nvim-tree",
-    -- "sneak",
     "telescope",
-    -- "trouble",
-    -- "which-key",
   },
 
   disable = {

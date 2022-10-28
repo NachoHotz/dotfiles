@@ -1,6 +1,9 @@
 --Open Telescope
 local opts = { noremap = true }
 
+require('telescope').load_extension('fzf')
+require('telescope').load_extension('software-licenses')
+
 vim.keymap.set('n', '<Leader>ff', '<Cmd>Telescope find_files<CR>', opts)
 vim.keymap.set('n', '<Leader>fcf', '<Cmd>Telescope current_buffer_fuzzy_find<CR>', opts)
 vim.keymap.set('n', '<Leader>fg', '<Cmd>Telescope git_files<CR>', opts)
@@ -12,3 +15,4 @@ vim.keymap.set('n', '<Leader>fa', '<Cmd>Telescope live_grep<CR>', opts)
 vim.keymap.set('n', '<leader>dl', '<Cmd>Telescope diagnostics<CR>', opts) -- List all diagnostics
 vim.keymap.set('n', '<leader>tgd', '<Cmd>Telescope git_status<CR>', opts)
 vim.keymap.set('n', '<leader>gr', '<Cmd>Telescope lsp_references<CR>', opts)
+vim.keymap.set('n', '<leader>sl', '<Cmd>Telescope software-licenses find<CR>', opts)

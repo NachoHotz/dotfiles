@@ -4,6 +4,7 @@ return require('packer').startup(function(use)
 
   -- colorschemes
   use 'marko-cerovac/material.nvim'
+  use "catppuccin/nvim"
 
   -- status && bufferline
   use 'nvim-lualine/lualine.nvim'
@@ -30,15 +31,14 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
-  use 'stevearc/dressing.nvim' -- nvim input pop up ui
+  use 'stevearc/dressing.nvim' -- input pop up ui
 
+  -- Telescope
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
   use { 'nvim-telescope/telescope-fzf-native.nvim',
     run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
   use "chip/telescope-software-licenses.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
-  use { "LinArcX/telescope-env.nvim" }
 
   -- Git integration
   use 'tpope/vim-fugitive' -- git commands

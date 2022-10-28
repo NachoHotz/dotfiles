@@ -7,6 +7,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
+require('lspconfig').bashls.setup {}
 require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
 require('lspconfig').dockerls.setup {}
@@ -17,6 +18,8 @@ require('lspconfig').yamlls.setup {}
 require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
 require('lspconfig').pyright.setup {}
+require('lspconfig').vimls.setup {}
+require('lspconfig').marksman.setup {}
 
 require('lspconfig').html.setup {
   capabilities = capabilities,
