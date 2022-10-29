@@ -7,6 +7,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
+require('lspconfig').astro.setup {}
 require('lspconfig').bashls.setup {}
 require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
