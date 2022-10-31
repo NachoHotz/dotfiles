@@ -6,13 +6,16 @@ Plug 'hzchirs/vim-material'
 " airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'enricobacis/vim-airline-clock'
 
-" syntax
-Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'ntpeters/vim-better-whitespace'
-Plug 'ryanoasis/vim-devicons'
-Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
+"syntax
+Plug 'lukas-reineke/indent-blankline.nvim' "intentation
+Plug 'leafgarland/typescript-vim'
+Plug 'ntpeters/vim-better-whitespace' "see whitespaces in red
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, etc
+Plug 'jiangmiao/auto-pairs' "auto close brackets
 Plug 'pantharshit00/vim-prisma'
 
 # nerdtree
@@ -29,7 +32,6 @@ Plug 'tpope/vim-fugitive'
 
 " completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'github/copilot.vim'
 Plug 'rust-lang/rust.vim'
 
