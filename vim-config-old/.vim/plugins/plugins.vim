@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'enricobacis/vim-airline-clock'
 
-"syntax
+" syntax
 Plug 'lukas-reineke/indent-blankline.nvim' "intentation
 Plug 'leafgarland/typescript-vim'
 Plug 'ntpeters/vim-better-whitespace' "see whitespaces in red
@@ -18,7 +18,7 @@ Plug 'tpope/vim-surround' "commands to surround text with quotes, parentheses, e
 Plug 'jiangmiao/auto-pairs' "auto close brackets
 Plug 'pantharshit00/vim-prisma'
 
-# nerdtree
+" nerdtree
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin' "git integration for file changes/stages
 Plug 'PhilRunninger/nerdtree-visual-selection' "select multiple files
