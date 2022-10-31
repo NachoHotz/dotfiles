@@ -20,11 +20,11 @@ Plug 'pantharshit00/vim-prisma'
 
 # nerdtree
 Plug 'scrooloose/nerdtree'
-Plug 'xuyuanp/nerdtree-git-plugin' -- git integration for file changes/stages
-Plug 'PhilRunninger/nerdtree-visual-selection' -- select multiple files
+Plug 'xuyuanp/nerdtree-git-plugin' "git integration for file changes/stages
+Plug 'PhilRunninger/nerdtree-visual-selection' "select multiple files
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons' -- file icons
-Plug 'pbrisbin/vim-mkdir' -- create directory from nerdtree
+Plug 'ryanoasis/vim-devicons' "file icons
+Plug 'pbrisbin/vim-mkdir' "create directory from nerdtree
 
 " git integration
 Plug 'mhinz/vim-signify', {'tag': 'legacy' }
