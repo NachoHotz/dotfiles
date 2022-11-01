@@ -27,7 +27,7 @@ Plug 'ryanoasis/vim-devicons' "file icons
 Plug 'pbrisbin/vim-mkdir' "create directory from nerdtree
 
 " git integration
-Plug 'mhinz/vim-signify', {'tag': 'legacy' }
+Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 
 " completion
