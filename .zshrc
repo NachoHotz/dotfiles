@@ -130,14 +130,19 @@ alias cls="clear"
 alias q="exit"
 alias v=$EDITOR
 alias lg="lazygit"
+alias work="cd ~/workspace/comafi/ && $EDITOR"
 alias vconf="$EDITOR ~/.config/nvim/"
 alias nvm-lts="nvm use 16.18.0"
+alias starconf="$EDITOR ~/.config/starship.toml"
 alias shconf="$EDITOR ~/.zshrc"
 alias shsource="source ~/.zshrc"
+alias alconf="${EDITOR} ~/.config/alacritty.yml"
 alias air="~/go/bin/air"
 alias sysup="sudo dnf check-update"
 alias sysug="sudo dnf upgrade -y"
 alias sysi="sudo dnf install"
+
+alias asp-new="dotnet-aspnet-codegenerator"
 
 # ------- Node -------
 
@@ -151,7 +156,7 @@ alias nisg="npm install -g"
 # ------- Yarn -------
 
 alias y="yarn"
-alias yi="yarn install"
+alias yis="yarn install"
 alias ya="yarn add"
 alias yad="yarn add --save-dev"
 
@@ -262,3 +267,8 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 eval "$(starship init zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
