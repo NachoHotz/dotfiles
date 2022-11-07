@@ -4,7 +4,9 @@ return require('packer').startup(function(use)
 
   -- colorschemes
   use 'marko-cerovac/material.nvim'
-  use "catppuccin/nvim"
+  -- use "rebelot/kanagawa.nvim"
+  -- use "catppuccin/nvim"
+  -- use 'folke/tokyonight.nvim'
 
   -- status && bufferline
   use 'nvim-lualine/lualine.nvim'

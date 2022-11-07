@@ -18,6 +18,7 @@ require('lspconfig').tailwindcss.setup {}
 require('lspconfig').yamlls.setup {}
 require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
+require('lspconfig').omnisharp.setup {}
 require('lspconfig').pyright.setup {}
 require('lspconfig').vimls.setup {}
 require('lspconfig').marksman.setup {}
@@ -76,3 +77,4 @@ vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump t
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') -- Open code actions
 vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>') -- Format code in current buffer
 vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>') -- Rename variable
+vim.keymap.set('n', '<leader>es', '<Cmd>EslintFixAll<CR>')
