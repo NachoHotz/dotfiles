@@ -3,7 +3,6 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- colorschemes
-  use "rebelot/kanagawa.nvim"
   use "catppuccin/nvim"
   use 'folke/tokyonight.nvim'
 
