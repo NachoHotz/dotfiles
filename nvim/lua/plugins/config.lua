@@ -36,9 +36,6 @@ require('plugins.setup.tokyonight')
 require('plugins.setup.catppuccin')
 
 vim.cmd('colorscheme tokyonight')
+
 vim.cmd('highlight! Normal guibg=NONE ctermbg=NONE')
-vim.cmd('highlight! LineNr guibg=NONE ctermbg=NONE')
-vim.cmd('highlight! SignColumn guibg=NONE ctermbg=NONE')
-vim.cmd('highlight! EndOfBuffer guibg=NONE ctermbg=NONE')
-vim.cmd('highlight! default link CmpItemKind CmpItemMenuDefault')
 vim.cmd('autocmd BufWritePre *.tsx, *.ts, *.jsx, *.js, *.vue, *.astro EslintFixAll')
