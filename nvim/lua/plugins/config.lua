@@ -1,7 +1,7 @@
 ---@diagnostic disable: unused-local
----------------------------------Sources-------------------------------
 
 -- Plgins that do not require even a single line of config are required here, otherwise they go inside the setup folder
+local cmd = vim.cmd
 
 require('fidget').setup {}
 require('colorizer').setup { '*' }
@@ -35,7 +35,5 @@ require('plugins.setup.indent-blackline')
 require('plugins.setup.tokyonight')
 require('plugins.setup.catppuccin')
 
-vim.cmd('colorscheme tokyonight')
-
-vim.cmd('highlight! Normal guibg=NONE ctermbg=NONE')
-vim.cmd('autocmd BufWritePre *.tsx, *.ts, *.jsx, *.js, *.vue, *.astro EslintFixAll')
+cmd('colorscheme tokyonight')
+cmd('autocmd BufWritePre *.tsx, *.ts, *.jsx, *.js, *.vue, *.astro EslintFixAll')
