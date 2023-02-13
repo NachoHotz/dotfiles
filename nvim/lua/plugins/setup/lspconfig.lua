@@ -7,21 +7,18 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
 
-require('lspconfig').astro.setup {}
 require('lspconfig').bashls.setup {}
-require('lspconfig').clangd.setup {}
+-- require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
 require('lspconfig').dockerls.setup {}
-require('lspconfig').gopls.setup {}
+-- require('lspconfig').gopls.setup {}
 require('lspconfig').prismals.setup {}
 require('lspconfig').tailwindcss.setup {}
 require('lspconfig').yamlls.setup {}
 require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
-require('lspconfig').omnisharp.setup {}
-require('lspconfig').pyright.setup {}
-require('lspconfig').vimls.setup {}
 require('lspconfig').marksman.setup {}
+require('lspconfig').lua_ls.setup {}
 
 require('lspconfig').html.setup {
   capabilities = capabilities,
@@ -29,19 +26,6 @@ require('lspconfig').html.setup {
 
 require('lspconfig').cssls.setup {
   capabilities = capabilities,
-}
-
-require('lspconfig').sumneko_lua.setup {
-  settings = {
-    Lua = {
-      diagnostics = {
-        globals = { 'vim' }
-      },
-      workspace = {
-        library = vim.api.nvim_get_runtime_file('', true)
-      }
-    }
-  }
 }
 
 require('lspconfig').emmet_ls.setup {
