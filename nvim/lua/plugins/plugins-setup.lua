@@ -70,4 +70,7 @@ return require('packer').startup(function(use)
   use 'gelguy/wilder.nvim' -- wild menu
 
   use 'j-hui/fidget.nvim' -- show LSP clients progress
+
+  -- neorg
+  use "nvim-neorg/neorg"
 end)

@@ -34,6 +34,7 @@ require('plugins.setup.telescope-config')
 require('plugins.setup.indent-blackline')
 require('plugins.setup.tokyonight')
 require('plugins.setup.catppuccin')
+require('plugins.setup.neorg')
 
 cmd('colorscheme tokyonight')
 cmd('autocmd BufWritePre *.tsx, *.ts, *.jsx, *.js, *.vue, *.astro EslintFixAll')
