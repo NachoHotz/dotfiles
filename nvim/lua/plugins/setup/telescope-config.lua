@@ -1,8 +1,14 @@
---Open Telescope
 local opts = { noremap = true }
 
-require('telescope').load_extension('fzf')
 require('telescope').load_extension('software-licenses')
+
+require('telescope').setup {
+  pickers = {
+    diagnostics = {
+      theme = 'dropdown',
+    }
+  }
+}
 
 vim.keymap.set('n', '<Leader>ff', '<Cmd>Telescope find_files<CR>', opts)
 vim.keymap.set('n', '<Leader>fcf', '<Cmd>Telescope current_buffer_fuzzy_find<CR>', opts)

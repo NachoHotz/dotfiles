@@ -1,3 +1,5 @@
+require('flutter-tools').setup()
+
 local opts = {
   noremap = true
 }

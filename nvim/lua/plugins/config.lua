@@ -3,6 +3,9 @@
 -- Plgins that do not require even a single line of config are required here, otherwise they go inside the setup folder
 local cmd = vim.cmd
 
+require('plugins.setup.tokyonight')
+cmd('colorscheme tokyonight')
+
 require('fidget').setup {}
 require('colorizer').setup { '*' }
 require('lsp_signature').setup()
@@ -12,7 +15,6 @@ require('nvim-autopairs').setup {}
 require('nvim-ts-autotag').setup {}
 require('copilot').setup()
 require('Comment').setup()
-require('rust-tools').setup()
 
 require('plugins.setup.bufferline')
 require('plugins.setup.gitsigns')
@@ -32,9 +34,4 @@ require('plugins.setup.toggleterm_config')
 require('plugins.setup.better-whitespace')
 require('plugins.setup.telescope-config')
 require('plugins.setup.indent-blackline')
-require('plugins.setup.tokyonight')
-require('plugins.setup.catppuccin')
 require('plugins.setup.neorg')
-
-cmd('colorscheme tokyonight')
-cmd('autocmd BufWritePre *.tsx, *.ts, *.jsx, *.js, *.vue, *.astro EslintFixAll')

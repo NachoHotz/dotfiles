@@ -16,18 +16,12 @@ configs.setup {
     'tsx',
     'javascript',
     'json',
-    'go',
-    'rust',
     'yaml',
     'toml',
     'dockerfile',
-    'c',
-    'cpp',
-    'python',
     'prisma',
     'markdown',
     'sql',
-    'go',
     'lua'
   }
 }

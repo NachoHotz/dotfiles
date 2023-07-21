@@ -3,7 +3,6 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- colorschemes
-  use "catppuccin/nvim"
   use 'folke/tokyonight.nvim'
 
   -- status && bufferline
@@ -23,7 +22,6 @@ return require('packer').startup(function(use)
   use 'b0o/schemastore.nvim' -- json config schemas
   use 'nvim-treesitter/nvim-treesitter'
   use 'norcalli/nvim-colorizer.lua' -- css color properties highlight
-  use 'simrat39/rust-tools.nvim'
   use 'folke/lsp-colors.nvim' -- Add some LSP highlight groups if missing from a colorscheme
 
   --- LSP && Mason
@@ -32,6 +30,9 @@ return require('packer').startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'stevearc/dressing.nvim' -- input pop up ui
+
+  -- Flutter
+  use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
 
   -- Telescope
   use 'nvim-lua/plenary.nvim'
@@ -73,4 +74,10 @@ return require('packer').startup(function(use)
 
   -- neorg
   use "nvim-neorg/neorg"
+
+  -- markdown preview
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
 end)

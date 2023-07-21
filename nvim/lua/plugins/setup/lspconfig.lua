@@ -6,19 +6,29 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- Set rounded borders for floating windows
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
+lsp.handlers["textDocument/publishDiagnostics"] = lsp.with(vim.lsp.diagnostic.on_publish_diagnostics,
+  {
+    virtual_text = true,
+    signs = true,
+    underline = true
+  }
+)
 
 require('lspconfig').bashls.setup {}
--- require('lspconfig').clangd.setup {}
+require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
+require('lspconfig').groovyls.setup {}
 require('lspconfig').dockerls.setup {}
--- require('lspconfig').gopls.setup {}
+require('lspconfig').gopls.setup {}
 require('lspconfig').prismals.setup {}
 require('lspconfig').tailwindcss.setup {}
 require('lspconfig').yamlls.setup {}
 require('lspconfig').cssmodules_ls.setup {}
 require('lspconfig').eslint.setup {}
+require('lspconfig').pyright.setup {}
 require('lspconfig').marksman.setup {}
 require('lspconfig').lua_ls.setup {}
+require('lspconfig').vimls.setup {}
 
 require('lspconfig').html.setup {
   capabilities = capabilities,
@@ -53,12 +63,13 @@ require('lspconfig').jsonls.setup {
 
 ------------------------ MAPPINGS ------------------------
 
-vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>') -- Show hover
+vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>')                 -- Show hover
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
-vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>') -- Jump to definition
-vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>') -- Show type definition
-vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>') -- Jump to implementation
+vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>')           -- Jump to definition
+vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>')      -- Show type definition
+vim.keymap.set('n', 'gi', '<Cmd>lua vim.lsp.buf.implementation()<CR>')       -- Jump to implementation
 vim.keymap.set('n', '<leader>cda', '<Cmd>lua vim.lsp.buf.code_action()<CR>') -- Open code actions
-vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>') -- Format code in current buffer
-vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>') -- Rename variable
+vim.keymap.set('n', '<leader>fp', '<Cmd>lua vim.lsp.buf.format()<CR>')       -- Format code in current buffer
+vim.keymap.set('n', '<leader>r', '<Cmd>lua vim.lsp.buf.rename()<CR>')        -- Rename variable
 vim.keymap.set('n', '<leader>es', '<Cmd>EslintFixAll<CR>')
+vim.keymap.set('n', '<leader>lsi', '<Cmd>LspInstall<CR>')

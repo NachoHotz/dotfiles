@@ -12,6 +12,9 @@ vim.keymap.set('n', '<Leader>ew', ':q!<CR>', opts)
 vim.keymap.set('n', '<Leader>tl', ':terminal<CR>', opts) --Open the terminal
 vim.keymap.set('n', '<Leader>wtl', ':w <bar> :terminal<CR>', opts) --Save the current file and open the terminal
 
+vim.keymap.set('n', '<Leader>tsu', ':TSUpdate<CR>', opts) -- Update Treesitter
+vim.keymap.set('n', '<Leader>ma', ':Mason<CR>', opts) -- Open Mason
+
 --Windows swap
 vim.keymap.set('n', '<Leader>j', ':wincmd j<CR>', opts)
 vim.keymap.set('n', '<Leader>k', ':wincmd k<CR>', opts)
