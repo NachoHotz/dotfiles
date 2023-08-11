@@ -6,13 +6,9 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- Set rounded borders for floating windows
 lsp.handlers["textDocument/hover"] = lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
 lsp.handlers["textDocument/signatureHelp"] = lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
-lsp.handlers["textDocument/publishDiagnostics"] = lsp.with(vim.lsp.diagnostic.on_publish_diagnostics,
-  {
-    virtual_text = true,
-    signs = true,
-    underline = true
-  }
-)
+vim.diagnostic.config {
+  float = { border = "rounded" }
+}
 
 require('lspconfig').bashls.setup {}
 require('lspconfig').clangd.setup {}
@@ -64,6 +60,7 @@ require('lspconfig').jsonls.setup {
 ------------------------ MAPPINGS ------------------------
 
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>')                 -- Show hover
+vim.keymap.set('n', 'dh', '<Cmd>lua vim.diagnostic.open_float()<CR>')        -- Show hover
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>')           -- Jump to definition
 vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>')      -- Show type definition

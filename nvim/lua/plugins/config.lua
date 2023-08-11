@@ -3,7 +3,10 @@
 -- Plgins that do not require even a single line of config are required here, otherwise they go inside the setup folder
 local cmd = vim.cmd
 
+-- Colorscheme requires to avoid color issues
 require('plugins.setup.tokyonight')
+require('plugins.setup.gruvbox-material')
+
 cmd('colorscheme tokyonight')
 
 require('fidget').setup {}
