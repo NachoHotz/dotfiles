@@ -60,7 +60,7 @@ require('lspconfig').jsonls.setup {
 ------------------------ MAPPINGS ------------------------
 
 vim.keymap.set('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>')                 -- Show hover
-vim.keymap.set('n', 'dh', '<Cmd>lua vim.diagnostic.open_float()<CR>')        -- Show hover
+vim.keymap.set('n', 'dh', '<Cmd>lua vim.diagnostic.open_float()<CR>')        -- Show diagnostic in floating window
 vim.keymap.set('n', '<c-k>', '<Cmd>lua vim.lsp.buf.signature_help()<CR>')
 vim.keymap.set('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>')           -- Jump to definition
 vim.keymap.set('n', 'gy', '<Cmd>lua vim.lsp.buf.type_definition()<CR>')      -- Show type definition
