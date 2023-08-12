@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
   -- colorschemes
   use 'folke/tokyonight.nvim'
   use 'sainnhe/gruvbox-material'
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   -- status && bufferline
   use 'nvim-lualine/lualine.nvim'
