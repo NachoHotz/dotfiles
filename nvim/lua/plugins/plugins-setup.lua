@@ -1,4 +1,4 @@
---------------------------------Plugins--------------------------------------------
+
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
@@ -14,6 +14,9 @@ return require('packer').startup(function(use)
 
   -- nvim tree
   use 'kyazdani42/nvim-tree.lua'
+
+  -- terminal
+  use {"akinsho/toggleterm.nvim", tag = '*'}
 
   -- syntax
   use 'lukas-reineke/indent-blankline.nvim' -- intentation
@@ -41,7 +44,6 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use { 'nvim-telescope/telescope-fzf-native.nvim',
     run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
-  use "chip/telescope-software-licenses.nvim"
 
   -- Git integration
   use 'tpope/vim-fugitive' -- git commands

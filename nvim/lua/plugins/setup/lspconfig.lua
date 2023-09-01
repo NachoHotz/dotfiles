@@ -10,7 +10,7 @@ vim.diagnostic.config {
   float = { border = "rounded" }
 }
 
-require('lspconfig').bashls.setup {}
+-- require('lspconfig').bashls.setup {}
 require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
 require('lspconfig').groovyls.setup {}
@@ -25,6 +25,7 @@ require('lspconfig').pyright.setup {}
 require('lspconfig').marksman.setup {}
 require('lspconfig').lua_ls.setup {}
 require('lspconfig').vimls.setup {}
+require('lspconfig').rust_analyzer.setup {}
 
 require('lspconfig').html.setup {
   capabilities = capabilities,

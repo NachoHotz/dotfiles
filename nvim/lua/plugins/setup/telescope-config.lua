@@ -1,7 +1,5 @@
 local opts = { noremap = true }
 
-require('telescope').load_extension('software-licenses')
-
 require('telescope').setup {
   pickers = {
     diagnostics = {
@@ -21,4 +19,3 @@ vim.keymap.set('n', '<Leader>fa', '<Cmd>Telescope live_grep<CR>', opts)
 vim.keymap.set('n', '<leader>dl', '<Cmd>Telescope diagnostics<CR>', opts) -- List all diagnostics
 vim.keymap.set('n', '<leader>tgd', '<Cmd>Telescope git_status<CR>', opts)
 vim.keymap.set('n', '<leader>gr', '<Cmd>Telescope lsp_references<CR>', opts)
-vim.keymap.set('n', '<leader>sl', '<Cmd>Telescope software-licenses find<CR>', opts)

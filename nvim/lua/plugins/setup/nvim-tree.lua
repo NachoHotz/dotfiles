@@ -63,11 +63,6 @@ end
 
 require('nvim-tree').setup {
   view = {
-    mappings = {
-      list = {
-        { key = 'x', action = 'close_node' }
-      }
-    },
     side = "right",
     width = 50
   },
