@@ -4,8 +4,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export EDITOR='nvim'
-
 export DENO_INSTALL="/home/nacho/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
@@ -25,10 +23,23 @@ export PATH=$PATH:$CLANGD_PATH
 export RAILWAY_PATH=$HOME/cli/bin/
 export PATH=$PATH:$RAILWAY_PATH
 
-export DISCORD_PATH=$HOME/Discord/
-export PATH=$PATH:$DISCORD_PATH
+export JULIA_PATH=$HOME/julia-1.8.1/bin/
+export PATH=$PATH:$JULIA_PATH
 
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+export SAM_CLI_TELEMETRY=0
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME
+
+export ANDROID_TOOLS=$HOME/Android/Sdk/cmdline-tools/latest/
+export PATH=$PATH:$ANDROID_TOOLS
+
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$DOTNET_ROOT
+
+EDITOR='nvim'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -130,17 +141,19 @@ alias cls="clear"
 alias q="exit"
 alias v=$EDITOR
 alias lg="lazygit"
-alias work="cd ~/workspace/comafi/ && $EDITOR"
-alias vconf="$EDITOR ~/.config/nvim/"
+alias work-back="cd ~/workspace/job/RCT/surf-rct-back/ && $EDITOR"
+alias work-front="cd ~/workspace/job/RCT/surf-rct-front/ && $EDITOR"
+alias notes="cd ~/workspace/notes/ && $EDITOR index.norg"
+alias vconf="$EDITOR ~/.config/nvim/init.lua"
 alias nvm-lts="nvm use 16.18.0"
 alias starconf="$EDITOR ~/.config/starship.toml"
 alias shconf="$EDITOR ~/.zshrc"
 alias shsource="source ~/.zshrc"
 alias alconf="${EDITOR} ~/.config/alacritty.yml"
 alias air="~/go/bin/air"
-alias sysup="sudo dnf check-update"
-alias sysug="sudo dnf upgrade -y"
-alias sysi="sudo dnf install"
+alias sysup="sudo apt update && sudo apt upgrade -y"
+alias sysar="sudo apt autoremove -y"
+alias sysi="sudo apt install -y"
 
 alias asp-new="dotnet-aspnet-codegenerator"
 
@@ -150,6 +163,8 @@ alias ni="npm init -y"
 alias nis="npm install"
 alias nisd="npm install --save-dev"
 alias nisg="npm install -g"
+alias nd="npm run dev"
+alias nb="npm run build"
 
 # -------------------
 
@@ -159,6 +174,8 @@ alias y="yarn"
 alias yis="yarn install"
 alias ya="yarn add"
 alias yad="yarn add --save-dev"
+alias yd="yarn dev"
+alias yb="yarn build"
 
 # -------------------
 
@@ -193,6 +210,7 @@ alias gi="git init"
 alias gct="git commit -m"
 alias gca="git commit -am"
 alias gch="git checkout"
+alias gchb="git checkout -b"
 alias gb="git branch"
 alias gbl="git branch -l"
 alias gba="git branch -a"
@@ -272,3 +290,7 @@ eval "$(starship init zsh)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+if [ ! -f "/home/nacho/cshell_launcher.log" ]; then
+    /usr/bin/cshell/launcher > /home/nacho/cshell_launcher.log
+fi
