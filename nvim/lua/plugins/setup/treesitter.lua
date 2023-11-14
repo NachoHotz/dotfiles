@@ -23,5 +23,5 @@ configs.setup {
     'markdown',
     'sql',
     'lua'
-  }
+  },
 }
