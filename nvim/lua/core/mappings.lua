@@ -42,6 +42,11 @@ vim.keymap.set('n', '<Leader>no', ':!node %<CR>', opts) --Run current JS file
 vim.keymap.set('n', '<Leader>wno', ':w <bar> :!node %<CR>', opts) --Save and run current JS file
 vim.keymap.set('n', '<Leader>wts', ':w <bar> :!tsc<CR>', opts) --Save the current file and run the typescript compiler
 
+------------ BUN JS/TS MAPPINGS ------------
+
+vim.keymap.set('n', '<Leader>br', ':!bun run %<CR>', opts) --Run current JS file
+vim.keymap.set('n', '<Leader>wbr', ':w <bar> :!bun run %<CR>', opts) --Save and run current JS file
+
 -------------------- C/C++ MAPPINGS --------------
 
 vim.keymap.set('n', '<Leader>gcc', ':!gcc -Wall % -o %:r<CR>', opts) --Compile current C file
